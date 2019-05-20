@@ -1,0 +1,35 @@
+{
+  "name": "internet-object-vs-json-benchmark",
+  "version": "1.0.0",
+  "description": "Internet Object vs. JSON benchmark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maniartech/internet-object-vs-json-benchmark.git"
+  },
+  "keywords": [
+    "internet-object",
+    "internetobject",
+    "json",
+    "benchmark",
+    "rest",
+    "api",
+    "http",
+    "https"
+  ],
+  "author": "Mohamed Aamir Maniar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maniartech/internet-object-vs-json-benchmark/issues"
+  },
+  "homepage": "https://github.com/maniartech/internet-object-vs-json-benchmark#readme",
+  "devDependencies": {
+    "faker": "^4.1.0"
+  },
+  "dependencies": {
+    "asciichart": "^1.5.7"
+  }
+}
