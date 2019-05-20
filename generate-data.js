@@ -13,7 +13,7 @@ console.log(jsonData)
 const ioLen = ioData.length
 const jsonLen = jsonData.length
 const diff = ioLen * 100 / jsonLen
-console.log(ioLen, jsonLen, `${Math.round(100 - diff)}% small!`)
+console.log(ioLen, jsonLen, `${Math.round(100 - diff)}% smaller!`)
 
 function generateCollection(count) {
 
