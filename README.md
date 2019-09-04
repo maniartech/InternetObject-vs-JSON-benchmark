@@ -34,6 +34,6 @@ IO is 43.58% smaller than JSON!
 IO with header is 43.56% smaller than JSON!
 ```
 
-> **Work in Progress:** The benchmark uses the prototype structure of Internet Object. Even though the structure is not finalized, it will give you sufficient idea about how much bytes IO can save when compared with JSON. The final structure may change after the draft is finalized!
+> **Work in Progress:** The benchmark uses the prototype structure of Internet Object. Even though the structure is not finalized, it will give you sufficient idea about how much bytes IO can save when compared with JSON. There might be some issues with the current IO data produced by the benchmark. The final structure may change after the draft is finalized!
 
 Should you have any query about this benchmark, please email it to hello@internetobject.org
