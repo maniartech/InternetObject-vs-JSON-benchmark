@@ -169,6 +169,11 @@ function _(str) {
     return str
   }
 
+  // If it contains comma, then enclose in double quotes
+  if (str.indexOf(",") !== -1) {
+    return `"${str}"`
+  }
+
   return str.indexOf("'") === -1 ? str : `"${str}"`
 }
 
