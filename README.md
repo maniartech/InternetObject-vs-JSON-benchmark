@@ -3,7 +3,7 @@
 Compares the data size of Internet Object vs JSON output when serialized. To execute this benchmark, run the follwing code!
 
 ```sh
-$ node run.js
+$ yarn start
 ```
 
 You might see an output similar to the following when you run this.
@@ -34,6 +34,6 @@ IO is 43.58% smaller than JSON!
 IO with header is 43.56% smaller than JSON!
 ```
 
-> **Work in Progress:** The benchmark uses the prototype structure of Internet Object. Even though the structure is not finalized, it will give you sufficient idea about how much bytes IO can save when compared with JSON. There might be some issues with the current IO data produced by the benchmark. The final structure may change after the draft is finalized!
+> **Work in Progress:** While this benchmark is a good start, it is still a work in progress. We will be adding more finetuned benchmarks in the future.
 
-Should you have any query about this benchmark, please email it to hello@internetobject.org
+Should you have any query about this benchmark, please email it to <hello@internetobject.org>
