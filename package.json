@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Internet Object vs. JSON benchmark",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -26,10 +27,7 @@
     "url": "https://github.com/maniartech/internet-object-vs-json-benchmark/issues"
   },
   "homepage": "https://github.com/maniartech/internet-object-vs-json-benchmark#readme",
-  "devDependencies": {
-    "faker": "^4.1.0"
-  },
   "dependencies": {
-    "asciichart": "^1.5.7"
+    "@faker-js/faker": "^8.4.1"
   }
 }
