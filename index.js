@@ -1,6 +1,6 @@
 import { generateRecords } from './src/generators.js';
 import { runBenchmark } from './src/benchmark.js';
-import { logStats, showHelp } from './src/reporters.js';
+import { logStats, showHelp, logSuccess } from './src/reporters.js';
 import { saveData } from './src/storage.js';
 
 // Parse command line arguments
@@ -39,5 +39,5 @@ if (config.save) {
   const recordsToSave = generateRecords(config.saveCount);
   const results = runBenchmark(recordsToSave);
   saveData(results);
-  console.log(`✅ Saved ${config.saveCount} records to ./data/`);
+  logSuccess(`Saved ${config.saveCount} records to ./data/`);
 }
