@@ -11,9 +11,9 @@ Compares the character/byte count and token usage of Internet Object vs JSON out
 
 - ✅ Actual GPT-4/GPT-3.5 token counting (not just character count)
 - ✅ Cost comparison based on current OpenAI pricing
-- ✅ Per-record metrics
+- ✅ Per-record metrics with colorful CLI output
 - ✅ Configurable benchmark runs
-- ✅ Visual bar charts
+- ✅ Visual ASCII bar charts
 - ✅ Proper string escaping for Internet Object format
 
 ## Installation
@@ -83,7 +83,26 @@ npm start -- --help
 - **Per-Record Metrics**: Average size/tokens per record
 - **Reduction Percentage**: How much smaller Internet Object is vs JSON
 
-## Data Structure
+## Technical Details
+
+### Project Structure
+
+The benchmark is modularized for maintainability:
+
+```
+io-bench/
+├── index.js              # Main entry point & CLI
+├── src/
+│   ├── generators.js     # Data generation with faker
+│   ├── formatters.js     # IO & JSON formatting
+│   ├── benchmark.js      # Core benchmarking logic
+│   ├── reporters.js      # Console output & help text
+│   └── storage.js        # File saving functionality
+├── data/                 # Generated data files
+└── package.json
+```
+
+### Data Structure
 
 The benchmark generates realistic user records with:
 - Personal information (name, age, gender, joining date)
@@ -136,6 +155,21 @@ For **single records**, JSON may use fewer tokens due to IO's schema header over
 - **500+ records**: Savings stabilize at optimal levels
 
 **Recommendation**: Use Internet Object for datasets with 5+ records for maximum efficiency.
+
+## Important Disclaimer
+
+⚠️ **This benchmark uses simulated Internet Object format** - The data output mimics IO syntax but is not validated by the official Internet Object parser library. The format follows IO structure conventions closely enough to provide accurate size and token comparisons.
+
+**Key Points:**
+- Generated data follows IO syntax rules (schema header, delimiters, type hints)
+- String escaping and formatting match IO specifications
+- Results are representative of actual IO format efficiency
+- **Variance**: Re-running the benchmark may show ±5% variation due to random data generation
+- For production use, validate with the official [Internet Object library](https://github.com/maniartech/InternetObject-js)
+
+The benchmark's primary goal is to demonstrate the size and token efficiency gains of the IO format approach compared to JSON.
+
+## String Escaping
 
 String escaping properly handles:
 - Commas (`,`)
