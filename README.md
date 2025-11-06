@@ -1,39 +1,148 @@
 # Internet Object vs JSON Benchmarks
 
-Compares the data size of Internet Object vs JSON output when serialized. To execute this benchmark, run the follwing code!
+Compares the character/byte count and token usage of Internet Object vs JSON output when serialized. This benchmark is particularly relevant for:
+
+- 🤖 **AI/LLM Context Windows** - Fewer tokens means more data in your prompts
+- 💰 **API Costs** - Token-based pricing (OpenAI, Anthropic, etc.)
+- 🌐 **Network Bandwidth** - Smaller payloads, faster transfers
+- 💾 **Storage Efficiency** - Reduced storage requirements
+
+## Features
+
+- ✅ Actual GPT-4/GPT-3.5 token counting (not just character count)
+- ✅ Cost comparison based on current OpenAI pricing
+- ✅ Per-record metrics
+- ✅ Configurable benchmark runs
+- ✅ Visual bar charts
+- ✅ Proper string escaping for Internet Object format
+
+## Installation
 
 ```sh
-$ yarn start
+npm install
 ```
 
-You might see an output similar to the following when you run this.
+## Usage
 
-```
-For 1 Record(s)
-===============
-IO Data: 495
-IO Data with Header: 671
-JSON: 887
-IO is 44.19% smaller than JSON!
-IO with header is 24.34% smaller than JSON!
-
-For 100 record(s)
-=================
-IO Data: 50862
-IO Data with Header: 51038
-JSON: 89963
-IO is 43.46% smaller than JSON!
-IO with header is 43.27% smaller than JSON!
-
-For 1000 record(s)
-==================
-IO Data: 506234
-IO Data with Header: 506410
-JSON: 897235
-IO is 43.58% smaller than JSON!
-IO with header is 43.56% smaller than JSON!
+### Default Benchmark (1, 100, 1000 records)
+```sh
+npm start
 ```
 
-> **Work in Progress:** While this benchmark is a good start, it is still a work in progress. We will be adding more finetuned benchmarks in the future.
+### Custom Record Counts
+```sh
+npm start -- --counts 10,50,100,500
+```
 
-Should you have any query about this benchmark, please email it to <hello@internetobject.org>
+### Save Data Files
+```sh
+npm start -- --save 100
+```
+
+### Combined Options
+```sh
+npm start -- --counts 1,5,10,50 --save 50
+```
+
+### Help
+```sh
+npm start -- --help
+```
+
+## Sample Output
+
+```
+======================================================================
+  Benchmark Results: 100 Record(s)
+======================================================================
+
+📊 CHARACTER/BYTE COUNT:
+  Internet Object:      10,052 bytes █████████████████████████
+  JSON:                 19,807 bytes ██████████████████████████████████████████████████
+  Reduction:        49.25%
+  Per Record:       IO: 101 bytes  |  JSON: 198 bytes
+
+🤖 TOKEN COUNT (GPT-4/GPT-3.5):
+  Internet Object:       4,174 tokens
+  JSON:                  5,749 tokens
+  Reduction:        27.40%
+  Per Record:       IO: 41.74 tokens  |  JSON: 57.49 tokens
+
+💰 COST SAVINGS (GPT-4 @ $0.03/1K tokens):
+  Internet Object:  $0.1252
+  JSON:             $0.1725
+  Savings:          $0.0473 (27.40%)
+======================================================================
+```
+
+## What's Measured
+
+- **Byte Count**: Raw character/byte size of serialized data
+- **Token Count**: Actual tokens as counted by GPT-4's tokenizer (cl100k_base)
+- **Cost Analysis**: Estimated API costs based on current pricing
+- **Per-Record Metrics**: Average size/tokens per record
+- **Reduction Percentage**: How much smaller Internet Object is vs JSON
+
+## Data Structure
+
+The benchmark generates realistic user records with:
+- Personal information (name, age, gender, joining date)
+- Address object (street, city, optional state)
+- Array of favorite colors
+- Boolean status flag
+
+**Internet Object Format:**
+```
+name, age, gender, joiningDt, address: {street, city, state?}, colors, isActive
+---
+~ Alice Smith, 28, f, d'2021-04-15', {Elm Street, Dallas, TX}, [yellow, green], T
+~ Bob Johnson, 22, m, d'2022-02-20', {Oak Street, Chicago, IL}, [blue, black], T
+~ Rachel Green, 31, f, d'2021-12-11', {Sunset Boulevard, Los Angeles, CA}, [purple, pink], T
+```
+
+**JSON Format:**
+```json
+[
+  {
+    "name": "Alice Smith",
+    "age": 28,
+    "gender": "f",
+    "joiningDt": "2021-04-15",
+    "address": {
+      "street": "Elm Street",
+      "city": "Dallas",
+      "state": "TX"
+    },
+    "colors": ["yellow", "green"],
+    "isActive": true
+  }
+]
+```
+
+## Key Benefits
+
+- **~50% byte reduction** - Internet Object is half the size of JSON (verified across 10-1000+ records)
+- **~30% token reduction** - Significant LLM API cost savings for larger datasets
+- **Schema-first approach** - Header defines structure once, not per record
+- **Type hints** - Built-in date format (d'...'), boolean (T/F), optional fields (?)
+- **Better scalability** - Header overhead amortized across many records
+
+### Important Note: Breakeven Point
+
+For **single records**, JSON may use fewer tokens due to IO's schema header overhead (24 tokens). However:
+- **3-5 records**: Breakeven point
+- **10+ records**: IO format shows clear advantages
+- **100+ records**: ~50% byte savings, ~30% token savings
+- **500+ records**: Savings stabilize at optimal levels
+
+**Recommendation**: Use Internet Object for datasets with 5+ records for maximum efficiency.
+
+String escaping properly handles:
+- Commas (`,`)
+- Quotes (`"`)
+- Newlines and whitespace
+- Special characters
+
+## Questions?
+
+For questions about this benchmark, email <hello@internetobject.org>
