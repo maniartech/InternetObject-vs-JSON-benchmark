@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/maniartech/internet-object-vs-json-benchmark#readme",
   "dependencies": {
-    "@faker-js/faker": "^9.2.0",
+    "@faker-js/faker": "^10.5.0",
     "js-tiktoken": "^1.0.15"
   }
 }
