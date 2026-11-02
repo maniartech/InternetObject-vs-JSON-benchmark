@@ -4,7 +4,6 @@
 //   npm run bench && npm run readme
 import { readFileSync, writeFileSync } from 'node:fs';
 import { toMarkdown } from '../src/report.js';
-import { validationToMarkdown } from '../src/validation.js';
 
 const results = JSON.parse(readFileSync(new URL('../results/latest.json', import.meta.url), 'utf8'));
 const readmePath = new URL('../README.md', import.meta.url);
@@ -15,9 +14,20 @@ const pct = (value, base) => {
   return `${d > 0 ? '+' : d < 0 ? '−' : ''}${Math.abs(d).toFixed(1)}%`;
 };
 
-function headline() {
-  const runs = results.runs.filter((r) => r.count === HEADLINE_COUNT);
-  return toMarkdown({ ...results, runs });
+function headline(kind) {
+  const runs = results.runs.filter((r) => r.count === HEADLINE_COUNT && (r.kind ?? 'synthetic') === kind);
+  return runs.length ? toMarkdown({ ...results, runs }) : '_Run `npm run fetch-data` and `npm run bench` to add these._';
+}
+
+function sources() {
+  const rows = Object.entries(results.meta.sources ?? {});
+  if (!rows.length) return '_No real datasets in this run._';
+  const out = ['| Id | Hugging Face dataset | Licence | Revision | Notes |', '| --- | --- | --- | --- | --- |'];
+  for (const [id, s] of rows) {
+    const notes = [s.note, s.excludedRows ? `${s.excludedRows} rows dropped: IO cannot write strings starting with \`$\`/\`@\`` : null].filter(Boolean).join('; ');
+    out.push(`| \`${id}\` | [${s.dataset}](${s.url}) | ${s.license} | \`${s.revision.slice(0, 8)}\` | ${notes || '–'} |`);
+  }
+  return out.join('\n');
 }
 
 // Smallest format per column at the headline record count.
@@ -65,20 +75,19 @@ function scaling() {
   return out.join('\n');
 }
 
-function validation() {
-  return (results.validation ?? []).map(validationToMarkdown).join('\n');
-}
-
 function replaceBlock(text, name, body) {
   const re = new RegExp(`(<!-- ${name}:start -->)[\\s\\S]*?(<!-- ${name}:end -->)`);
   if (!re.test(text)) throw new Error(`README.md is missing the <!-- ${name}:start/end --> markers`);
-  return text.replace(re, `$1\n${body.trim()}\n$2`);
+  return text.replace(re, (_, start, end) => `${start}\n${body.trim()}\n${end}`); // function form: `body` may contain `$`
 }
 
 let readme = readFileSync(readmePath, 'utf8');
 readme = replaceBlock(readme, 'winners', winners());
-readme = replaceBlock(readme, 'results', headline());
+readme = replaceBlock(readme, 'results', headline('synthetic'));
+if (results.runs.some((r) => r.kind === 'real')) {
+  readme = replaceBlock(readme, 'sources', sources());
+  readme = replaceBlock(readme, 'results-real', headline('real'));
+}
 readme = replaceBlock(readme, 'scaling', scaling());
-if (results.validation) readme = replaceBlock(readme, 'validation', validation());
 writeFileSync(readmePath, readme);
 console.log('README.md updated from results/latest.json');

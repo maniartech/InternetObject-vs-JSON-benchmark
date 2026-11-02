@@ -70,14 +70,3 @@ export function toConsole(results, { baseline = 'json' } = {}) {
   }
   return out.join('\n') + '\n';
 }
-
-export function speedToMarkdown(speed) {
-  const lines = [
-    `### Speed — ${fmt(speed.count)} ${speed.datasetLabel} records (operations per second, higher is better)`,
-    '',
-    '| Format | Serialize | Parse |',
-    '| --- | ---: | ---: |',
-  ];
-  for (const r of speed.rows) lines.push(`| ${r.label} | ${fmt(Math.round(r.serialize))} | ${r.parse ? fmt(Math.round(r.parse)) : '–'} |`);
-  return lines.join('\n') + '\n';
-}

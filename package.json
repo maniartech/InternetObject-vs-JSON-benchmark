@@ -6,10 +6,11 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "bench": "node index.js --speed --validation --out results",
+    "bench": "node index.js --out results",
     "test": "node --test test/*.test.js",
     "readme": "node scripts/update-readme.js",
     "charts": "node scripts/make-charts.js",
+    "fetch-data": "node scripts/fetch-data.js",
     "list": "node index.js --list"
   },
   "repository": {

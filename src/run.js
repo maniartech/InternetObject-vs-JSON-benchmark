@@ -16,6 +16,10 @@ export async function runBenchmark({ datasets, formats, counts, tokenizers, seed
   for (const dataset of datasets) {
     for (const count of counts) {
       const records = generate(dataset, count, seed);
+      if (records.length !== count) {
+        console.warn(`skipping ${dataset.id} at ${count} records: only ${records.length} available`);
+        continue;
+      }
       verifyRoundTrip(dataset, records); // never report numbers for IO the parser can't read back
 
       const rows = [];
@@ -41,7 +45,7 @@ export async function runBenchmark({ datasets, formats, counts, tokenizers, seed
         }
         rows.push(row);
       }
-      runs.push({ dataset: dataset.id, datasetLabel: dataset.label, count, rows });
+      runs.push({ dataset: dataset.id, datasetLabel: dataset.label, kind: dataset.kind ?? 'synthetic', count, rows });
     }
   }
 
@@ -52,6 +56,7 @@ export async function runBenchmark({ datasets, formats, counts, tokenizers, seed
       node: process.version,
       internetObject: ioVersion,
       counts,
+      sources: Object.fromEntries(datasets.filter((d) => d.source).map((d) => [d.id, d.source])),
     },
     tokenizers: tokenizers.map(({ id, label, family, models }) => ({ id, label, family, models })),
     runs,

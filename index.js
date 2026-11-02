@@ -2,12 +2,15 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { parseArgs } from 'node:util';
 import { DATASETS, generate } from './src/datasets.js';
+import { loadRealDatasets } from './src/real/datasets.js';
 import { FORMATS } from './src/formats.js';
-import { speedToMarkdown, toConsole, toMarkdown } from './src/report.js';
+import { toConsole, toMarkdown } from './src/report.js';
 import { runBenchmark } from './src/run.js';
-import { runSpeed } from './src/speed.js';
 import { runValidation, validationDatasets, validationToMarkdown } from './src/validation.js';
 import { loadTokenizers, saveTokenCache } from './src/tokenizers.js';
+
+const realSources = loadRealDatasets();
+const allDatasets = [...Object.values(DATASETS), ...realSources.filter((r) => r.dataset).map((r) => r.dataset)];
 
 const HELP = `Internet Object vs JSON benchmark
 
@@ -15,11 +18,11 @@ Usage: npm start -- [options]
 
 Options:
   -c, --counts <n,n,...>      Record counts to run            (default: 1,10,100,1000)
-  -d, --datasets <id,...>     ${Object.keys(DATASETS).join(', ')}  (default: all)
+  -d, --datasets <id,...>     ${allDatasets.map((d) => d.id).join(', ')}  (default: all)
+                              Real datasets need "npm run fetch-data" first.
   -f, --formats <id,...>      ${FORMATS.map((f) => f.id).join(', ')}  (default: all)
   -t, --tokenizers <id,...>   Tokenizers to use               (default: all available)
   -s, --seed <n>              Seed for reproducible data      (default: 2026)
-      --speed [n]             Also measure serialize/parse speed on n records (default: 1000)
       --validation [n]        Also measure validation speed (JSON Schema/Ajv vs IO schema) on n records (default: 1000)
   -o, --out <dir>             Write latest.json and latest.md to <dir>
       --save-data <dir>       Write sample data files (one per format) to <dir>
@@ -39,7 +42,6 @@ const { values } = parseArgs({
     formats: { type: 'string', short: 'f' },
     tokenizers: { type: 'string', short: 't' },
     seed: { type: 'string', short: 's', default: '2026' },
-    speed: { type: 'string' },
     validation: { type: 'string' },
     out: { type: 'string', short: 'o' },
     'save-data': { type: 'string' },
@@ -75,7 +77,8 @@ if (values.help) {
 const allTokenizers = await loadTokenizers();
 
 if (values.list) {
-  console.log('Datasets:\n' + Object.values(DATASETS).map((d) => `  ${d.id.padEnd(10)} ${d.label}`).join('\n'));
+  console.log('Datasets:\n' + Object.values(DATASETS).map((d) => `  ${d.id.padEnd(11)} ${d.label}`).join('\n'));
+  console.log('\nReal datasets (Hugging Face):\n' + realSources.map(({ source, dataset }) => `  ${source.id.padEnd(11)} ${source.label}${dataset ? '' : '  – not fetched, run: npm run fetch-data'}`).join('\n'));
   console.log('\nFormats:\n' + FORMATS.map((f) => `  ${f.id.padEnd(12)} ${f.label}`).join('\n'));
   console.log(
     '\nTokenizers:\n' +
@@ -86,7 +89,7 @@ if (values.list) {
 
 const counts = csv(values.counts).map((c) => positiveInt(c, 'count'));
 const seed = positiveInt(values.seed, 'seed');
-const datasets = select(values.datasets, Object.values(DATASETS), 'dataset');
+const datasets = select(values.datasets, allDatasets, 'dataset');
 const formats = select(values.formats, FORMATS, 'format');
 const requested = select(values.tokenizers, allTokenizers, 'tokenizer');
 const tokenizers = requested.filter((t) => t.available);
@@ -97,35 +100,23 @@ const results = await runBenchmark({ datasets, formats, counts, tokenizers, seed
 saveTokenCache();
 console.log(toConsole(results));
 
-let speedMarkdown = '';
-const speedResults = [];
-if (values.speed !== undefined) {
-  const count = values.speed === '' ? 1000 : positiveInt(values.speed, 'speed');
-  for (const dataset of datasets) {
-    const speed = await runSpeed({ dataset, formats, count, seed });
-    speedResults.push(speed);
-    speedMarkdown += '\n' + speedToMarkdown(speed);
-    console.log(speedToMarkdown(speed));
-  }
-}
-
+let extraMarkdown = '';
 const validationResults = [];
 if (values.validation !== undefined) {
   const count = values.validation === '' ? 1000 : positiveInt(values.validation, 'validation');
   for (const dataset of validationDatasets().filter((d) => datasets.includes(d))) {
     const result = await runValidation({ dataset, count, seed });
     validationResults.push(result);
-    speedMarkdown += '\n' + validationToMarkdown(result);
+    extraMarkdown += '\n' + validationToMarkdown(result);
     console.log(validationToMarkdown(result));
   }
 }
 
 if (values.out) {
   mkdirSync(values.out, { recursive: true });
-  if (speedResults.length) results.speed = speedResults;
   if (validationResults.length) results.validation = validationResults;
   writeFileSync(`${values.out}/latest.json`, JSON.stringify(results, null, 2) + '\n');
-  writeFileSync(`${values.out}/latest.md`, toMarkdown(results) + speedMarkdown);
+  writeFileSync(`${values.out}/latest.md`, toMarkdown(results) + extraMarkdown);
   console.log(`wrote ${values.out}/latest.json and ${values.out}/latest.md`);
 }
 

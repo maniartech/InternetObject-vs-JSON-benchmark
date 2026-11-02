@@ -36,7 +36,7 @@ const STYLE = `
   }`;
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
-const pct = (v, d = 1) => `${v > 0 ? '+' : v < 0 ? '−' : ''}${Math.abs(v).toFixed(d)}%`;
+const pct = (v, d = 1) => (Number(Math.abs(v).toFixed(d)) === 0 ? `${(0).toFixed(d)}%` : `${v > 0 ? '+' : '−'}${Math.abs(v).toFixed(d)}%`);
 const change = (value, base) => ((value - base) / base) * 100;
 const row = (run, id) => run.rows.find((r) => r.id === id);
 const runOf = (dataset, count) => results.runs.find((r) => r.dataset === dataset && r.count === count);
@@ -68,17 +68,18 @@ function legend(items, x, y) {
 
 // ---- 1. Tokens by format, per dataset (horizontal bars) ----------------------
 
-function tokensByFormat() {
+function tokensByFormat(panels, heading) {
+  if (!panels.length) return null;
   const tok = PRIMARY_TOKENIZER;
   const tokLabel = tokenizers.find((t) => t.id === tok).label;
   const domain = [-60, 80];
   const left = 150, right = W - 70, rowH = 26, gap = 34, top = 64;
   const x = (v) => left + ((v - domain[0]) / (domain[1] - domain[0])) * (right - left);
   let y = top, body = '';
-  body += text(24, 28, `Tokens vs minified JSON, ${HEADLINE.toLocaleString('en-US')} records (${tokLabel})`, { cls: 't1', size: 16, weight: 600 });
+  body += text(24, 28, `${heading}, ${HEADLINE.toLocaleString('en-US')} records (${tokLabel})`, { cls: 't1', size: 16, weight: 600 });
   body += text(24, 48, 'Shorter bar to the left is better. Internet Object highlighted.', { size: 12 });
 
-  for (const ds of DATASETS) {
+  for (const ds of panels) {
     const run = runOf(ds.id, HEADLINE);
     const base = row(run, 'json').tokens[tok];
     const rows = run.rows
@@ -233,73 +234,14 @@ function reductionByTokenizer() {
   });
 }
 
-// ---- 5. Parse speed relative to JSON -----------------------------------------
-
-function parseSpeed() {
-  if (!results.speed) return null;
-  const formats = [
-    { id: 'msgpack', label: 'MessagePack' },
-    { id: 'toon', label: 'TOON' },
-    { id: 'io', label: 'Internet Object' },
-    { id: 'yaml', label: 'YAML' },
-  ];
-  const speedOf = (dataset, id) => results.speed.find((s) => s.dataset === dataset)?.rows.find((r) => r.id === id)?.parse;
-  return groupedBars({
-    title: 'Parse speed relative to JSON.parse',
-    subtitle: 'Operations per second as a share of JSON (JSON = 100%), 1,000 records. Taller is better. Single noisy run: indicative only.',
-    categories: formats,
-    valueOf: (f, d) => (speedOf(d.id, f.id) / speedOf(d.id, 'json')) * 100,
-    desc: 'Grouped bars of parse throughput for MessagePack, TOON, Internet Object and YAML relative to JSON.parse.',
-    yMax: 100,
-  });
-}
-
-// ---- 6. Validation throughput (log-scale horizontal bars) ---------------------
-
-function validationChart() {
-  if (!results.validation) return null;
-  const left = 190, right = W - 90, rowH = 24, top = 70;
-  const min = 1, max = 100000;
-  const x = (v) => left + ((Math.log10(v) - Math.log10(min)) / (Math.log10(max) - Math.log10(min))) * (right - left);
-  const fmt = new Intl.NumberFormat('en-US');
-  let y = top, body = text(24, 28, 'Validation throughput: JSON Schema (Ajv) vs Internet Object', { cls: 't1', size: 16, weight: 600 });
-  body += text(24, 48, 'Documents per second of 1,000 records, log scale, longer is faster. Internet Object highlighted.', { size: 12 });
-  for (const result of results.validation) {
-    body += text(24, y + 12, `${result.datasetLabel.replace(/ \(.*\)/, '')} — ${result.count.toLocaleString('en-US')} records`, { cls: 't1', size: 13, weight: 600 });
-    y += 22;
-    const panelTop = y;
-    let lastGroup = '';
-    for (const r of result.rows) {
-      if (r.group !== lastGroup) {
-        lastGroup = r.group;
-        body += text(left - 10, y + 12, r.group, { anchor: 'end', size: 10 });
-        y += 14;
-      }
-      const isIO = r.id.startsWith('io');
-      body += text(left - 10, y + 15, r.label, { anchor: 'end', cls: isIO ? 't1' : 't2', weight: isIO ? 600 : 400 });
-      body += `<rect x="${left}" y="${y + 4}" width="${Math.max(x(r.opsPerSec) - left, 1)}" height="14" rx="3" class="${isIO ? 's1' : 'other'}"/>`;
-      body += text(x(r.opsPerSec) + 6, y + 15, fmt.format(Math.round(r.opsPerSec)), { cls: isIO ? 't1' : 't2', weight: isIO ? 600 : 400 });
-      y += rowH;
-    }
-    body += `<line x1="${left}" x2="${left}" y1="${panelTop - 2}" y2="${y}" class="axis" stroke-width="1"/>`;
-    y += 22;
-  }
-  for (const v of [1, 10, 100, 1000, 10000, 100000]) body += text(x(v), y, fmt.format(v), { anchor: 'middle', size: 10 });
-  return svg({
-    height: y + 14,
-    title: 'Validation throughput, JSON Schema versus Internet Object',
-    desc: 'Log-scale horizontal bars of documents per second for six validation scenarios on two datasets.',
-    body,
-  });
-}
+const realPanels = [...new Map(results.runs.filter((r) => r.kind === 'real').map((r) => [r.dataset, { id: r.dataset, name: r.datasetLabel }])).values()];
 
 const charts = {
-  'validation.svg': validationChart(),
-  'tokens-by-format.svg': tokensByFormat(),
+  'tokens-by-format-real.svg': tokensByFormat(realPanels, 'Real datasets: tokens vs minified JSON'),
+  'tokens-by-format.svg': tokensByFormat(DATASETS, 'Tokens vs minified JSON'),
   'scaling.svg': scaling(),
   'reduction-by-measure.svg': reductionByMeasure(),
   'tokenizers.svg': reductionByTokenizer(),
-  'parse-speed.svg': parseSpeed(),
 };
 for (const [name, content] of Object.entries(charts)) {
   if (!content) continue;

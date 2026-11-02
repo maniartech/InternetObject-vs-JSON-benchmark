@@ -6,8 +6,9 @@
 // back identically fails the run.
 
 // Characters (or shapes) that would be misread as IO syntax if left bare.
-// A `'` is quoted because `O'Neil` is read as the annotation `O'...'`.
-const NEEDS_QUOTES = /[,"'{}[\]:~\\\n\r\t]|^\s|\s$|^$/;
+// A `'` is quoted because `O'Neil` is read as the annotation `O'...'`; `#`
+// starts a comment; a leading `$` names a schema or definition.
+const NEEDS_QUOTES = /[,"'#{}[\]:~\\\n\r\t]|^[$@]|^\s|\s$|^$/;
 
 // Bare values the parser reads as another type. Single-letter T/F/N are
 // case-sensitive (lowercase `f`/`m` stay strings); the rest are not. Numbers
@@ -18,6 +19,7 @@ const TYPED_LITERALS = [
   /^[-+]?(?:\d+(?:\.\d+)?|\.\d+)(?:[eE][+-]?\d+)?$/,
   /^[-+]?0[bBoOxX]/,
   /^[-+]?\d+[eE]\d/,
+  /^[-+]?\d+\.$/, // `2010.` is read as the number 2010
 ];
 
 /** Encodes a string value, quoting only when the syntax requires it. */

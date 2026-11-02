@@ -23,7 +23,7 @@ test('generated Internet Object text round-trips through the official parser', (
 });
 
 test('str() quotes values the parser would otherwise misread', () => {
-  const tricky = ["O'Neil", '4912808N', '4183147E', '0xFF', '0b11', '1e5', 'T', 'N', 'null', 'Inf', 'a, b', ' padded', 'x:y', ''];
+  const tricky = ['2010.', 'Goosebumps #28', '#Acoustic', "O'Neil", '4912808N', '4183147E', '0xFF', '0b11', '1e5', 'T', 'N', 'null', 'Inf', 'a, b', ' padded', 'x:y', ''];
   for (const value of tricky) {
     const parsed = parseIO(`v\n---\n~ ${str(value)}\n`);
     assert.equal(parsed[0].v, value, `value ${JSON.stringify(value)} did not survive`);

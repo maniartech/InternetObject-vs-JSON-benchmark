@@ -11,7 +11,7 @@ import { parseIO } from './io/runtime.js';
 //   binary      – true when the output is not text (no token counts)
 //   supports    – (dataset) => boolean; e.g. CSV cannot express nested data
 //   serialize   – (records, dataset) => string | Uint8Array
-//   parse       – (output, dataset) => records; used by the optional speed run
+//   parse       – (output, dataset) => records; used by the tests to check each format reads back
 
 const withoutUndefined = (records) => JSON.parse(JSON.stringify(records));
 

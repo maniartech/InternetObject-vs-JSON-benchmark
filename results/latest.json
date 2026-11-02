@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-11-02T11:25:46.545Z",
+    "generatedAt": "2026-11-02T18:03:42.262Z",
     "seed": 2026,
     "node": "v22.22.1",
     "internetObject": "0.3.0",
@@ -9,7 +9,70 @@
       10,
       100,
       1000
-    ]
+    ],
+    "sources": {
+      "adult": {
+        "dataset": "scikit-learn/adult-census-income",
+        "config": "default",
+        "split": "train",
+        "license": "cc0-1.0",
+        "revision": "fbeef6ec0e6fd88a5028b94683144000a6b380d5",
+        "fetchedAt": "2026-11-02T11:38:14.165Z",
+        "url": "https://huggingface.co/datasets/scikit-learn/adult-census-income",
+        "rawRows": 1300,
+        "sha256": "00da00344c21a5ebd315800e20d2970c489d9414696dc2f64d4a17add1e66b64",
+        "excludedRows": 0
+      },
+      "spotify": {
+        "dataset": "maharshipandya/spotify-tracks-dataset",
+        "config": "default",
+        "split": "train",
+        "license": "bsd",
+        "revision": "635b034f69257814eff850a5c2b3346fe458134f",
+        "fetchedAt": "2026-11-02T11:38:27.141Z",
+        "url": "https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset",
+        "rawRows": 1300,
+        "sha256": "74437873ae6468a6922f054706b92dac80eee265dcaca43e1511d7a03c0095ff",
+        "excludedRows": 0
+      },
+      "squad": {
+        "dataset": "rajpurkar/squad",
+        "config": "plain_text",
+        "split": "train",
+        "license": "cc-by-sa-4.0",
+        "revision": "7b6d24c440a36b6815f21b70d25016731768db1f",
+        "fetchedAt": "2026-11-02T11:38:31.590Z",
+        "url": "https://huggingface.co/datasets/rajpurkar/squad",
+        "rawRows": 1300,
+        "sha256": "2995f2e53567c735303e3e970ddea7e9798d882681a5bf223993a75cf1223fe5",
+        "excludedRows": 8
+      },
+      "hub-models": {
+        "dataset": "cfahlgren1/hub-stats",
+        "config": "models",
+        "split": "train",
+        "license": "apache-2.0",
+        "revision": "d398264a0d849457c226870503d5eb8a26d19e52",
+        "fetchedAt": "2026-11-02T11:43:52.707Z",
+        "url": "https://huggingface.co/datasets/cfahlgren1/hub-stats",
+        "rawRows": 1600,
+        "sha256": "df52c836bfa666e1dbd16351d062d258a2f5b7873937dbda396069f5de0a5eda",
+        "note": "live snapshot, ordered by trending score; changes daily",
+        "excludedRows": 0
+      },
+      "no-robots": {
+        "dataset": "HuggingFaceH4/no_robots",
+        "config": "default",
+        "split": "train",
+        "license": "cc-by-nc-4.0",
+        "revision": "e6f9a4ac5c37faeb744ba9ecf0473184d7f8105b",
+        "fetchedAt": "2026-11-02T11:40:10.536Z",
+        "url": "https://huggingface.co/datasets/HuggingFaceH4/no_robots",
+        "rawRows": 1300,
+        "sha256": "3db04099b6390189bf46fb496cf791cec773c00780ec40daf0c55b98006b2df3",
+        "excludedRows": 0
+      }
+    }
   },
   "tokenizers": [
     {
@@ -60,6 +123,7 @@
     {
       "dataset": "users",
       "datasetLabel": "Users (nested object + array)",
+      "kind": "synthetic",
       "count": 1,
       "rows": [
         {
@@ -159,6 +223,7 @@
     {
       "dataset": "users",
       "datasetLabel": "Users (nested object + array)",
+      "kind": "synthetic",
       "count": 10,
       "rows": [
         {
@@ -258,6 +323,7 @@
     {
       "dataset": "users",
       "datasetLabel": "Users (nested object + array)",
+      "kind": "synthetic",
       "count": 100,
       "rows": [
         {
@@ -357,6 +423,7 @@
     {
       "dataset": "users",
       "datasetLabel": "Users (nested object + array)",
+      "kind": "synthetic",
       "count": 1000,
       "rows": [
         {
@@ -456,6 +523,7 @@
     {
       "dataset": "orders",
       "datasetLabel": "Orders (array of objects)",
+      "kind": "synthetic",
       "count": 1,
       "rows": [
         {
@@ -555,6 +623,7 @@
     {
       "dataset": "orders",
       "datasetLabel": "Orders (array of objects)",
+      "kind": "synthetic",
       "count": 10,
       "rows": [
         {
@@ -654,6 +723,7 @@
     {
       "dataset": "orders",
       "datasetLabel": "Orders (array of objects)",
+      "kind": "synthetic",
       "count": 100,
       "rows": [
         {
@@ -753,6 +823,7 @@
     {
       "dataset": "orders",
       "datasetLabel": "Orders (array of objects)",
+      "kind": "synthetic",
       "count": 1000,
       "rows": [
         {
@@ -852,6 +923,7 @@
     {
       "dataset": "metrics",
       "datasetLabel": "Metrics (flat, numeric)",
+      "kind": "synthetic",
       "count": 1,
       "rows": [
         {
@@ -965,6 +1037,7 @@
     {
       "dataset": "metrics",
       "datasetLabel": "Metrics (flat, numeric)",
+      "kind": "synthetic",
       "count": 10,
       "rows": [
         {
@@ -1078,6 +1151,7 @@
     {
       "dataset": "metrics",
       "datasetLabel": "Metrics (flat, numeric)",
+      "kind": "synthetic",
       "count": 100,
       "rows": [
         {
@@ -1191,6 +1265,7 @@
     {
       "dataset": "metrics",
       "datasetLabel": "Metrics (flat, numeric)",
+      "kind": "synthetic",
       "count": 1000,
       "rows": [
         {
@@ -1300,246 +1375,2116 @@
           }
         }
       ]
-    }
-  ],
-  "speed": [
-    {
-      "dataset": "users",
-      "datasetLabel": "Users (nested object + array)",
-      "count": 1000,
-      "rows": [
-        {
-          "id": "json",
-          "label": "JSON",
-          "serialize": 864.6561128589876,
-          "parse": 593.1960222412737
-        },
-        {
-          "id": "json-pretty",
-          "label": "JSON (pretty)",
-          "serialize": 633.113047400967,
-          "parse": 521.8383017676867
-        },
-        {
-          "id": "ndjson",
-          "label": "NDJSON",
-          "serialize": 681.4935493425396,
-          "parse": 446.3870194325589
-        },
-        {
-          "id": "yaml",
-          "label": "YAML",
-          "serialize": 8.866451145916738,
-          "parse": 5.051907412899987
-        },
-        {
-          "id": "toon",
-          "label": "TOON",
-          "serialize": 47.64129735170812,
-          "parse": 27.646413388992247
-        },
-        {
-          "id": "msgpack",
-          "label": "MessagePack",
-          "serialize": 155.86931401210583,
-          "parse": 357.91280812025263
-        },
-        {
-          "id": "io",
-          "label": "Internet Object",
-          "serialize": 262.8534734959392,
-          "parse": 15.358949950134003
-        }
-      ]
     },
     {
-      "dataset": "orders",
-      "datasetLabel": "Orders (array of objects)",
-      "count": 1000,
+      "dataset": "adult",
+      "datasetLabel": "Adult census (flat, mixed)",
+      "kind": "real",
+      "count": 1,
       "rows": [
         {
           "id": "json",
           "label": "JSON",
-          "serialize": 422.6757013643474,
-          "parse": 300.46162978675204
+          "bytes": 295,
+          "gzip": 227,
+          "brotli": 184,
+          "tokens": {
+            "o200k_base": 84,
+            "cl100k_base": 86,
+            "qwen3.8": 94,
+            "deepseek-v4-pro": 91,
+            "mistral-large-4": 83
+          }
         },
         {
           "id": "json-pretty",
           "label": "JSON (pretty)",
-          "serialize": 306.7052634572774,
-          "parse": 281.57982713825356
+          "bytes": 392,
+          "gzip": 247,
+          "brotli": 207,
+          "tokens": {
+            "o200k_base": 130,
+            "cl100k_base": 132,
+            "qwen3.8": 158,
+            "deepseek-v4-pro": 139,
+            "mistral-large-4": 132
+          }
         },
         {
           "id": "ndjson",
           "label": "NDJSON",
-          "serialize": 365.6917029255754,
-          "parse": 250.826926375186
-        },
-        {
-          "id": "yaml",
-          "label": "YAML",
-          "serialize": 6.404990488286986,
-          "parse": 3.0977744225052213
-        },
-        {
-          "id": "toon",
-          "label": "TOON",
-          "serialize": 30.932881494053643,
-          "parse": 14.245792267437496
-        },
-        {
-          "id": "msgpack",
-          "label": "MessagePack",
-          "serialize": 90.9600391386745,
-          "parse": 236.22792680875543
-        },
-        {
-          "id": "io",
-          "label": "Internet Object",
-          "serialize": 164.17632952885353,
-          "parse": 6.598877296956844
-        }
-      ]
-    },
-    {
-      "dataset": "metrics",
-      "datasetLabel": "Metrics (flat, numeric)",
-      "count": 1000,
-      "rows": [
-        {
-          "id": "json",
-          "label": "JSON",
-          "serialize": 1566.6365341292353,
-          "parse": 1347.5344438768075
-        },
-        {
-          "id": "json-pretty",
-          "label": "JSON (pretty)",
-          "serialize": 1401.2414151944877,
-          "parse": 1299.088765853561
-        },
-        {
-          "id": "ndjson",
-          "label": "NDJSON",
-          "serialize": 1047.611357977989,
-          "parse": 942.6603702291743
+          "bytes": 294,
+          "gzip": 226,
+          "brotli": 185,
+          "tokens": {
+            "o200k_base": 82,
+            "cl100k_base": 84,
+            "qwen3.8": 93,
+            "deepseek-v4-pro": 89,
+            "mistral-large-4": 82
+          }
         },
         {
           "id": "csv",
           "label": "CSV",
-          "serialize": 261.85561490671773
+          "bytes": 244,
+          "gzip": 199,
+          "brotli": 153,
+          "tokens": {
+            "o200k_base": 79,
+            "cl100k_base": 82,
+            "qwen3.8": 90,
+            "deepseek-v4-pro": 85,
+            "mistral-large-4": 80
+          }
         },
         {
           "id": "yaml",
           "label": "YAML",
-          "serialize": 21.65152484998615,
-          "parse": 8.65510512116935
+          "bytes": 293,
+          "gzip": 224,
+          "brotli": 186,
+          "tokens": {
+            "o200k_base": 101,
+            "cl100k_base": 102,
+            "qwen3.8": 110,
+            "deepseek-v4-pro": 106,
+            "mistral-large-4": 102
+          }
         },
         {
           "id": "toon",
           "label": "TOON",
-          "serialize": 182.97467924380663,
-          "parse": 71.39992112066489
+          "bytes": 251,
+          "gzip": 210,
+          "brotli": 167,
+          "tokens": {
+            "o200k_base": 84,
+            "cl100k_base": 87,
+            "qwen3.8": 95,
+            "deepseek-v4-pro": 89,
+            "mistral-large-4": 85
+          }
         },
         {
           "id": "msgpack",
           "label": "MessagePack",
-          "serialize": 455.06337627012635,
-          "parse": 949.1655002580874
+          "bytes": 237,
+          "gzip": 224,
+          "brotli": 197,
+          "tokens": {}
         },
         {
           "id": "io",
           "label": "Internet Object",
-          "serialize": 738.7477422382408,
-          "parse": 45.38269300933297
-        }
-      ]
-    }
-  ],
-  "validation": [
-    {
-      "dataset": "users",
-      "datasetLabel": "Users (nested object + array)",
-      "count": 1000,
-      "rows": [
-        {
-          "group": "Text → validated data",
-          "id": "json-ajv",
-          "label": "JSON.parse + Ajv",
-          "opsPerSec": 464.83598907053863
-        },
-        {
-          "group": "Text → validated data",
-          "id": "io-typed",
-          "label": "IO parse (typed schema)",
-          "opsPerSec": 14.995664536517067
-        },
-        {
-          "group": "Text → data, no validation",
-          "id": "json-parse",
-          "label": "JSON.parse",
-          "opsPerSec": 578.6134531878428
-        },
-        {
-          "group": "Text → data, no validation",
-          "id": "io-untyped",
-          "label": "IO parse (untyped header)",
-          "opsPerSec": 16.01734809426839
-        },
-        {
-          "group": "Objects → validated",
-          "id": "ajv",
-          "label": "Ajv (compiled)",
-          "opsPerSec": 2155.3862605012987
-        },
-        {
-          "group": "Objects → validated",
-          "id": "io-validate",
-          "label": "IO validateCollection",
-          "opsPerSec": 49.86653735369541
+          "bytes": 278,
+          "gzip": 222,
+          "brotli": 184,
+          "tokens": {
+            "o200k_base": 86,
+            "cl100k_base": 87,
+            "qwen3.8": 96,
+            "deepseek-v4-pro": 91,
+            "mistral-large-4": 87
+          }
         }
       ]
     },
     {
-      "dataset": "metrics",
-      "datasetLabel": "Metrics (flat, numeric)",
+      "dataset": "adult",
+      "datasetLabel": "Adult census (flat, mixed)",
+      "kind": "real",
+      "count": 10,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 3101,
+          "gzip": 595,
+          "brotli": 495,
+          "tokens": {
+            "o200k_base": 840,
+            "cl100k_base": 843,
+            "qwen3.8": 935,
+            "deepseek-v4-pro": 912,
+            "mistral-large-4": 847
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 4062,
+          "gzip": 622,
+          "brotli": 528,
+          "tokens": {
+            "o200k_base": 1322,
+            "cl100k_base": 1325,
+            "qwen3.8": 1588,
+            "deepseek-v4-pro": 1392,
+            "mistral-large-4": 1335
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 3100,
+          "gzip": 594,
+          "brotli": 492,
+          "tokens": {
+            "o200k_base": 847,
+            "cl100k_base": 850,
+            "qwen3.8": 952,
+            "deepseek-v4-pro": 910,
+            "mistral-large-4": 855
+          }
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 1196,
+          "gzip": 502,
+          "brotli": 421,
+          "tokens": {
+            "o200k_base": 463,
+            "cl100k_base": 465,
+            "qwen3.8": 557,
+            "deepseek-v4-pro": 477,
+            "mistral-large-4": 473
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 3064,
+          "gzip": 596,
+          "brotli": 495,
+          "tokens": {
+            "o200k_base": 1041,
+            "cl100k_base": 1041,
+            "qwen3.8": 1135,
+            "deepseek-v4-pro": 1089,
+            "mistral-large-4": 1049
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 1222,
+          "gzip": 518,
+          "brotli": 436,
+          "tokens": {
+            "o200k_base": 486,
+            "cl100k_base": 488,
+            "qwen3.8": 581,
+            "deepseek-v4-pro": 490,
+            "mistral-large-4": 496
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 2510,
+          "gzip": 602,
+          "brotli": 494,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 1374,
+          "gzip": 539,
+          "brotli": 445,
+          "tokens": {
+            "o200k_base": 537,
+            "cl100k_base": 537,
+            "qwen3.8": 630,
+            "deepseek-v4-pro": 547,
+            "mistral-large-4": 545
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "adult",
+      "datasetLabel": "Adult census (flat, mixed)",
+      "kind": "real",
+      "count": 100,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 31648,
+          "gzip": 2313,
+          "brotli": 1954,
+          "tokens": {
+            "o200k_base": 8562,
+            "cl100k_base": 8611,
+            "qwen3.8": 9578,
+            "deepseek-v4-pro": 9328,
+            "mistral-large-4": 8758
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 41249,
+          "gzip": 2386,
+          "brotli": 2029,
+          "tokens": {
+            "o200k_base": 13360,
+            "cl100k_base": 13409,
+            "qwen3.8": 16077,
+            "deepseek-v4-pro": 14128,
+            "mistral-large-4": 13578
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 31647,
+          "gzip": 2312,
+          "brotli": 1952,
+          "tokens": {
+            "o200k_base": 8659,
+            "cl100k_base": 8708,
+            "qwen3.8": 9775,
+            "deepseek-v4-pro": 9326,
+            "mistral-large-4": 8856
+          }
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 11203,
+          "gzip": 2028,
+          "brotli": 1718,
+          "tokens": {
+            "o200k_base": 4412,
+            "cl100k_base": 4445,
+            "qwen3.8": 5412,
+            "deepseek-v4-pro": 4559,
+            "mistral-large-4": 4622
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 31349,
+          "gzip": 2321,
+          "brotli": 1953,
+          "tokens": {
+            "o200k_base": 10481,
+            "cl100k_base": 10506,
+            "qwen3.8": 11553,
+            "deepseek-v4-pro": 11030,
+            "mistral-large-4": 10716
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 11410,
+          "gzip": 2046,
+          "brotli": 1736,
+          "tokens": {
+            "o200k_base": 4615,
+            "cl100k_base": 4648,
+            "qwen3.8": 5617,
+            "deepseek-v4-pro": 4662,
+            "mistral-large-4": 4825
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 25672,
+          "gzip": 2295,
+          "brotli": 2004,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 12821,
+          "gzip": 2114,
+          "brotli": 1766,
+          "tokens": {
+            "o200k_base": 5101,
+            "cl100k_base": 5126,
+            "qwen3.8": 6094,
+            "deepseek-v4-pro": 5174,
+            "mistral-large-4": 5336
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "adult",
+      "datasetLabel": "Adult census (flat, mixed)",
+      "kind": "real",
       "count": 1000,
       "rows": [
         {
-          "group": "Text → validated data",
-          "id": "json-ajv",
-          "label": "JSON.parse + Ajv",
-          "opsPerSec": 1295.3048896541675
+          "id": "json",
+          "label": "JSON",
+          "bytes": 318129,
+          "gzip": 14994,
+          "brotli": 12147,
+          "tokens": {
+            "o200k_base": 86396,
+            "cl100k_base": 87133,
+            "qwen3.8": 96706,
+            "deepseek-v4-pro": 94400,
+            "mistral-large-4": 88993
+          }
         },
         {
-          "group": "Text → validated data",
-          "id": "io-typed",
-          "label": "IO parse (typed schema)",
-          "opsPerSec": 38.640078001033196
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 414130,
+          "gzip": 15876,
+          "brotli": 12636,
+          "tokens": {
+            "o200k_base": 134601,
+            "cl100k_base": 135338,
+            "qwen3.8": 161912,
+            "deepseek-v4-pro": 142400,
+            "mistral-large-4": 137280
+          }
         },
         {
-          "group": "Text → data, no validation",
-          "id": "json-parse",
-          "label": "JSON.parse",
-          "opsPerSec": 1294.1415536318063
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 318128,
+          "gzip": 14991,
+          "brotli": 12138,
+          "tokens": {
+            "o200k_base": 87393,
+            "cl100k_base": 88130,
+            "qwen3.8": 98703,
+            "deepseek-v4-pro": 94398,
+            "mistral-large-4": 89991
+          }
         },
         {
-          "group": "Text → data, no validation",
-          "id": "io-untyped",
-          "label": "IO parse (untyped header)",
-          "opsPerSec": 38.93139289144166
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 112284,
+          "gzip": 12847,
+          "brotli": 10816,
+          "tokens": {
+            "o200k_base": 44341,
+            "cl100k_base": 44927,
+            "qwen3.8": 54500,
+            "deepseek-v4-pro": 46083,
+            "mistral-large-4": 46987
+          }
         },
         {
-          "group": "Objects → validated",
-          "id": "ajv",
-          "label": "Ajv (compiled)",
-          "opsPerSec": 15099.492043848517
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 314716,
+          "gzip": 15101,
+          "brotli": 12096,
+          "tokens": {
+            "o200k_base": 104955,
+            "cl100k_base": 105471,
+            "qwen3.8": 115758,
+            "deepseek-v4-pro": 110467,
+            "mistral-large-4": 108185
+          }
         },
         {
-          "group": "Objects → validated",
-          "id": "io-validate",
-          "label": "IO validateCollection",
-          "opsPerSec": 55.40144547318925
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 114292,
+          "gzip": 12888,
+          "brotli": 10878,
+          "tokens": {
+            "o200k_base": 46345,
+            "cl100k_base": 46931,
+            "qwen3.8": 56506,
+            "deepseek-v4-pro": 47087,
+            "mistral-large-4": 48991
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 258397,
+          "gzip": 14272,
+          "brotli": 12133,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 128302,
+          "gzip": 13173,
+          "brotli": 10993,
+          "tokens": {
+            "o200k_base": 50915,
+            "cl100k_base": 51431,
+            "qwen3.8": 61006,
+            "deepseek-v4-pro": 51718,
+            "mistral-large-4": 54145
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "spotify",
+      "datasetLabel": "Spotify tracks (flat, numeric)",
+      "kind": "real",
+      "count": 1,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 396,
+          "gzip": 285,
+          "brotli": 246,
+          "tokens": {
+            "o200k_base": 139,
+            "cl100k_base": 141,
+            "qwen3.8": 168,
+            "deepseek-v4-pro": 147,
+            "mistral-large-4": 142
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 523,
+          "gzip": 302,
+          "brotli": 262,
+          "tokens": {
+            "o200k_base": 200,
+            "cl100k_base": 203,
+            "qwen3.8": 253,
+            "deepseek-v4-pro": 208,
+            "mistral-large-4": 205
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 395,
+          "gzip": 283,
+          "brotli": 238,
+          "tokens": {
+            "o200k_base": 137,
+            "cl100k_base": 139,
+            "qwen3.8": 167,
+            "deepseek-v4-pro": 145,
+            "mistral-large-4": 141
+          }
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 338,
+          "gzip": 256,
+          "brotli": 207,
+          "tokens": {
+            "o200k_base": 128,
+            "cl100k_base": 131,
+            "qwen3.8": 158,
+            "deepseek-v4-pro": 136,
+            "mistral-large-4": 135
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 403,
+          "gzip": 279,
+          "brotli": 237,
+          "tokens": {
+            "o200k_base": 165,
+            "cl100k_base": 166,
+            "qwen3.8": 193,
+            "deepseek-v4-pro": 166,
+            "mistral-large-4": 166
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 350,
+          "gzip": 270,
+          "brotli": 222,
+          "tokens": {
+            "o200k_base": 134,
+            "cl100k_base": 137,
+            "qwen3.8": 164,
+            "deepseek-v4-pro": 142,
+            "mistral-large-4": 141
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 354,
+          "gzip": 338,
+          "brotli": 304,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 383,
+          "gzip": 276,
+          "brotli": 231,
+          "tokens": {
+            "o200k_base": 147,
+            "cl100k_base": 148,
+            "qwen3.8": 176,
+            "deepseek-v4-pro": 148,
+            "mistral-large-4": 148
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "spotify",
+      "datasetLabel": "Spotify tracks (flat, numeric)",
+      "kind": "real",
+      "count": 10,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 4189,
+          "gzip": 1285,
+          "brotli": 1060,
+          "tokens": {
+            "o200k_base": 1448,
+            "cl100k_base": 1443,
+            "qwen3.8": 1689,
+            "deepseek-v4-pro": 1524,
+            "mistral-large-4": 1475
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 5450,
+          "gzip": 1327,
+          "brotli": 1110,
+          "tokens": {
+            "o200k_base": 2064,
+            "cl100k_base": 2071,
+            "qwen3.8": 2538,
+            "deepseek-v4-pro": 2130,
+            "mistral-large-4": 2105
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 4188,
+          "gzip": 1284,
+          "brotli": 1067,
+          "tokens": {
+            "o200k_base": 1455,
+            "cl100k_base": 1450,
+            "qwen3.8": 1706,
+            "deepseek-v4-pro": 1522,
+            "mistral-large-4": 1483
+          }
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 1809,
+          "gzip": 1093,
+          "brotli": 937,
+          "tokens": {
+            "o200k_base": 881,
+            "cl100k_base": 895,
+            "qwen3.8": 1141,
+            "deepseek-v4-pro": 902,
+            "mistral-large-4": 903
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 4268,
+          "gzip": 1271,
+          "brotli": 1048,
+          "tokens": {
+            "o200k_base": 1728,
+            "cl100k_base": 1732,
+            "qwen3.8": 1983,
+            "deepseek-v4-pro": 1740,
+            "mistral-large-4": 1743
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 1885,
+          "gzip": 1117,
+          "brotli": 964,
+          "tokens": {
+            "o200k_base": 914,
+            "cl100k_base": 928,
+            "qwen3.8": 1175,
+            "deepseek-v4-pro": 935,
+            "mistral-large-4": 936
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 3777,
+          "gzip": 1662,
+          "brotli": 1464,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 2056,
+          "gzip": 1146,
+          "brotli": 995,
+          "tokens": {
+            "o200k_base": 1055,
+            "cl100k_base": 1068,
+            "qwen3.8": 1315,
+            "deepseek-v4-pro": 1067,
+            "mistral-large-4": 1061
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "spotify",
+      "datasetLabel": "Spotify tracks (flat, numeric)",
+      "kind": "real",
+      "count": 100,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 42096,
+          "gzip": 8088,
+          "brotli": 6660,
+          "tokens": {
+            "o200k_base": 14504,
+            "cl100k_base": 14424,
+            "qwen3.8": 16912,
+            "deepseek-v4-pro": 15240,
+            "mistral-large-4": 14760
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 54697,
+          "gzip": 8324,
+          "brotli": 6773,
+          "tokens": {
+            "o200k_base": 20690,
+            "cl100k_base": 20722,
+            "qwen3.8": 25411,
+            "deepseek-v4-pro": 21323,
+            "mistral-large-4": 21060
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 42095,
+          "gzip": 8088,
+          "brotli": 6662,
+          "tokens": {
+            "o200k_base": 14601,
+            "cl100k_base": 14521,
+            "qwen3.8": 17109,
+            "deepseek-v4-pro": 15238,
+            "mistral-large-4": 14858
+          }
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 16508,
+          "gzip": 7091,
+          "brotli": 6066,
+          "tokens": {
+            "o200k_base": 8403,
+            "cl100k_base": 8525,
+            "qwen3.8": 11008,
+            "deepseek-v4-pro": 8530,
+            "mistral-large-4": 8556
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 42897,
+          "gzip": 8079,
+          "brotli": 6630,
+          "tokens": {
+            "o200k_base": 17351,
+            "cl100k_base": 17369,
+            "qwen3.8": 19879,
+            "deepseek-v4-pro": 17465,
+            "mistral-large-4": 17503
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 17217,
+          "gzip": 7157,
+          "brotli": 6132,
+          "tokens": {
+            "o200k_base": 8703,
+            "cl100k_base": 8825,
+            "qwen3.8": 11311,
+            "deepseek-v4-pro": 8831,
+            "mistral-large-4": 8856
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 38048,
+          "gzip": 9919,
+          "brotli": 8602,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 18786,
+          "gzip": 7298,
+          "brotli": 6267,
+          "tokens": {
+            "o200k_base": 10133,
+            "cl100k_base": 10250,
+            "qwen3.8": 12740,
+            "deepseek-v4-pro": 10249,
+            "mistral-large-4": 10188
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "spotify",
+      "datasetLabel": "Spotify tracks (flat, numeric)",
+      "kind": "real",
+      "count": 1000,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 419546,
+          "gzip": 88339,
+          "brotli": 66728,
+          "tokens": {
+            "o200k_base": 145015,
+            "cl100k_base": 144405,
+            "qwen3.8": 168962,
+            "deepseek-v4-pro": 152190,
+            "mistral-large-4": 147364
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 545547,
+          "gzip": 91229,
+          "brotli": 68152,
+          "tokens": {
+            "o200k_base": 206772,
+            "cl100k_base": 207363,
+            "qwen3.8": 253918,
+            "deepseek-v4-pro": 212952,
+            "mistral-large-4": 210343
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 419545,
+          "gzip": 88340,
+          "brotli": 66741,
+          "tokens": {
+            "o200k_base": 146012,
+            "cl100k_base": 145402,
+            "qwen3.8": 170959,
+            "deepseek-v4-pro": 152188,
+            "mistral-large-4": 148362
+          }
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 162040,
+          "gzip": 73069,
+          "brotli": 61013,
+          "tokens": {
+            "o200k_base": 83468,
+            "cl100k_base": 84928,
+            "qwen3.8": 109458,
+            "deepseek-v4-pro": 84509,
+            "mistral-large-4": 84860
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 427651,
+          "gzip": 88520,
+          "brotli": 66843,
+          "tokens": {
+            "o200k_base": 173370,
+            "cl100k_base": 173949,
+            "qwen3.8": 198777,
+            "deepseek-v4-pro": 174493,
+            "mistral-large-4": 174894
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 169014,
+          "gzip": 73953,
+          "brotli": 61418,
+          "tokens": {
+            "o200k_base": 86386,
+            "cl100k_base": 87844,
+            "qwen3.8": 112381,
+            "deepseek-v4-pro": 87432,
+            "mistral-large-4": 87777
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 378679,
+          "gzip": 104939,
+          "brotli": 79826,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 184441,
+          "gzip": 75300,
+          "brotli": 62190,
+          "tokens": {
+            "o200k_base": 100683,
+            "cl100k_base": 102251,
+            "qwen3.8": 126783,
+            "deepseek-v4-pro": 101807,
+            "mistral-large-4": 101204
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "squad",
+      "datasetLabel": "SQuAD questions (long text, nested answers)",
+      "kind": "real",
+      "count": 1,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 936,
+          "gzip": 542,
+          "brotli": 436,
+          "tokens": {
+            "o200k_base": 226,
+            "cl100k_base": 231,
+            "qwen3.8": 248,
+            "deepseek-v4-pro": 233,
+            "mistral-large-4": 226
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 1026,
+          "gzip": 565,
+          "brotli": 455,
+          "tokens": {
+            "o200k_base": 257,
+            "cl100k_base": 263,
+            "qwen3.8": 294,
+            "deepseek-v4-pro": 262,
+            "mistral-large-4": 259
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 935,
+          "gzip": 543,
+          "brotli": 437,
+          "tokens": {
+            "o200k_base": 224,
+            "cl100k_base": 229,
+            "qwen3.8": 247,
+            "deepseek-v4-pro": 231,
+            "mistral-large-4": 224
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 978,
+          "gzip": 549,
+          "brotli": 444,
+          "tokens": {
+            "o200k_base": 250,
+            "cl100k_base": 255,
+            "qwen3.8": 277,
+            "deepseek-v4-pro": 254,
+            "mistral-large-4": 252
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 954,
+          "gzip": 545,
+          "brotli": 438,
+          "tokens": {
+            "o200k_base": 237,
+            "cl100k_base": 243,
+            "qwen3.8": 264,
+            "deepseek-v4-pro": 242,
+            "mistral-large-4": 239
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 908,
+          "gzip": 545,
+          "brotli": 436,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 930,
+          "gzip": 543,
+          "brotli": 434,
+          "tokens": {
+            "o200k_base": 227,
+            "cl100k_base": 233,
+            "qwen3.8": 253,
+            "deepseek-v4-pro": 233,
+            "mistral-large-4": 229
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "squad",
+      "datasetLabel": "SQuAD questions (long text, nested answers)",
+      "kind": "real",
+      "count": 10,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 12680,
+          "gzip": 1600,
+          "brotli": 1170,
+          "tokens": {
+            "o200k_base": 2693,
+            "cl100k_base": 2727,
+            "qwen3.8": 2909,
+            "deepseek-v4-pro": 2760,
+            "mistral-large-4": 2699
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 13571,
+          "gzip": 1634,
+          "brotli": 1191,
+          "tokens": {
+            "o200k_base": 3012,
+            "cl100k_base": 3056,
+            "qwen3.8": 3369,
+            "deepseek-v4-pro": 3050,
+            "mistral-large-4": 3038
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 12679,
+          "gzip": 1601,
+          "brotli": 1166,
+          "tokens": {
+            "o200k_base": 2700,
+            "cl100k_base": 2734,
+            "qwen3.8": 2926,
+            "deepseek-v4-pro": 2758,
+            "mistral-large-4": 2706
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 13325,
+          "gzip": 1640,
+          "brotli": 1209,
+          "tokens": {
+            "o200k_base": 3047,
+            "cl100k_base": 3086,
+            "qwen3.8": 3339,
+            "deepseek-v4-pro": 3080,
+            "mistral-large-4": 3073
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 12836,
+          "gzip": 1603,
+          "brotli": 1170,
+          "tokens": {
+            "o200k_base": 2812,
+            "cl100k_base": 2856,
+            "qwen3.8": 3071,
+            "deepseek-v4-pro": 2850,
+            "mistral-large-4": 2838
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 12407,
+          "gzip": 1638,
+          "brotli": 1204,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 12057,
+          "gzip": 1593,
+          "brotli": 1149,
+          "tokens": {
+            "o200k_base": 2579,
+            "cl100k_base": 2623,
+            "qwen3.8": 2817,
+            "deepseek-v4-pro": 2626,
+            "mistral-large-4": 2605
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "squad",
+      "datasetLabel": "SQuAD questions (long text, nested answers)",
+      "kind": "real",
+      "count": 100,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 118944,
+          "gzip": 13002,
+          "brotli": 9565,
+          "tokens": {
+            "o200k_base": 25380,
+            "cl100k_base": 25420,
+            "qwen3.8": 27629,
+            "deepseek-v4-pro": 25783,
+            "mistral-large-4": 25610
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 127845,
+          "gzip": 13150,
+          "brotli": 9680,
+          "tokens": {
+            "o200k_base": 28573,
+            "cl100k_base": 28711,
+            "qwen3.8": 32221,
+            "deepseek-v4-pro": 28683,
+            "mistral-large-4": 29000
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 118943,
+          "gzip": 13003,
+          "brotli": 9549,
+          "tokens": {
+            "o200k_base": 25477,
+            "cl100k_base": 25517,
+            "qwen3.8": 27826,
+            "deepseek-v4-pro": 25781,
+            "mistral-large-4": 25707
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 124983,
+          "gzip": 13573,
+          "brotli": 10129,
+          "tokens": {
+            "o200k_base": 28848,
+            "cl100k_base": 28975,
+            "qwen3.8": 31831,
+            "deepseek-v4-pro": 28897,
+            "mistral-large-4": 29279
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 120497,
+          "gzip": 13042,
+          "brotli": 9601,
+          "tokens": {
+            "o200k_base": 26598,
+            "cl100k_base": 26735,
+            "qwen3.8": 29275,
+            "deepseek-v4-pro": 26702,
+            "mistral-large-4": 27022
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 116219,
+          "gzip": 13310,
+          "brotli": 9827,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 112163,
+          "gzip": 12845,
+          "brotli": 9465,
+          "tokens": {
+            "o200k_base": 24122,
+            "cl100k_base": 24261,
+            "qwen3.8": 26573,
+            "deepseek-v4-pro": 24305,
+            "mistral-large-4": 24549
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "squad",
+      "datasetLabel": "SQuAD questions (long text, nested answers)",
+      "kind": "real",
+      "count": 1000,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 1084908,
+          "gzip": 85484,
+          "brotli": 61832,
+          "tokens": {
+            "o200k_base": 246098,
+            "cl100k_base": 249572,
+            "qwen3.8": 269627,
+            "deepseek-v4-pro": 254694,
+            "mistral-large-4": 252428
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 1173909,
+          "gzip": 86591,
+          "brotli": 62476,
+          "tokens": {
+            "o200k_base": 278103,
+            "cl100k_base": 282529,
+            "qwen3.8": 315578,
+            "deepseek-v4-pro": 283747,
+            "mistral-large-4": 286376
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 1084907,
+          "gzip": 85485,
+          "brotli": 61781,
+          "tokens": {
+            "o200k_base": 247095,
+            "cl100k_base": 250569,
+            "qwen3.8": 271624,
+            "deepseek-v4-pro": 254692,
+            "mistral-large-4": 253425
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 1137106,
+          "gzip": 88758,
+          "brotli": 65102,
+          "tokens": {
+            "o200k_base": 275547,
+            "cl100k_base": 280997,
+            "qwen3.8": 307437,
+            "deepseek-v4-pro": 281846,
+            "mistral-large-4": 286147
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 1100510,
+          "gzip": 86132,
+          "brotli": 62301,
+          "tokens": {
+            "o200k_base": 256639,
+            "cl100k_base": 261872,
+            "qwen3.8": 285109,
+            "deepseek-v4-pro": 263084,
+            "mistral-large-4": 266524
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 1053860,
+          "gzip": 88108,
+          "brotli": 63830,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 1017007,
+          "gzip": 84647,
+          "brotli": 61407,
+          "tokens": {
+            "o200k_base": 232075,
+            "cl100k_base": 237297,
+            "qwen3.8": 258355,
+            "deepseek-v4-pro": 239381,
+            "mistral-large-4": 241914
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "hub-models",
+      "datasetLabel": "Hub model metadata (tag arrays)",
+      "kind": "real",
+      "count": 1,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 521,
+          "gzip": 303,
+          "brotli": 250,
+          "tokens": {
+            "o200k_base": 176,
+            "cl100k_base": 177,
+            "qwen3.8": 198,
+            "deepseek-v4-pro": 183,
+            "mistral-large-4": 177
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 699,
+          "gzip": 332,
+          "brotli": 284,
+          "tokens": {
+            "o200k_base": 239,
+            "cl100k_base": 241,
+            "qwen3.8": 291,
+            "deepseek-v4-pro": 245,
+            "mistral-large-4": 242
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 520,
+          "gzip": 304,
+          "brotli": 253,
+          "tokens": {
+            "o200k_base": 174,
+            "cl100k_base": 175,
+            "qwen3.8": 197,
+            "deepseek-v4-pro": 181,
+            "mistral-large-4": 176
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 577,
+          "gzip": 303,
+          "brotli": 257,
+          "tokens": {
+            "o200k_base": 211,
+            "cl100k_base": 211,
+            "qwen3.8": 234,
+            "deepseek-v4-pro": 212,
+            "mistral-large-4": 213
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 519,
+          "gzip": 309,
+          "brotli": 255,
+          "tokens": {
+            "o200k_base": 182,
+            "cl100k_base": 182,
+            "qwen3.8": 208,
+            "deepseek-v4-pro": 189,
+            "mistral-large-4": 184
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 457,
+          "gzip": 314,
+          "brotli": 257,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 505,
+          "gzip": 304,
+          "brotli": 254,
+          "tokens": {
+            "o200k_base": 178,
+            "cl100k_base": 178,
+            "qwen3.8": 202,
+            "deepseek-v4-pro": 179,
+            "mistral-large-4": 180
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "hub-models",
+      "datasetLabel": "Hub model metadata (tag arrays)",
+      "kind": "real",
+      "count": 10,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 5615,
+          "gzip": 1685,
+          "brotli": 1447,
+          "tokens": {
+            "o200k_base": 1847,
+            "cl100k_base": 1841,
+            "qwen3.8": 2055,
+            "deepseek-v4-pro": 1938,
+            "mistral-large-4": 1873
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 8093,
+          "gzip": 1785,
+          "brotli": 1532,
+          "tokens": {
+            "o200k_base": 2688,
+            "cl100k_base": 2692,
+            "qwen3.8": 3288,
+            "deepseek-v4-pro": 2760,
+            "mistral-large-4": 2725
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 5614,
+          "gzip": 1686,
+          "brotli": 1450,
+          "tokens": {
+            "o200k_base": 1854,
+            "cl100k_base": 1848,
+            "qwen3.8": 2072,
+            "deepseek-v4-pro": 1936,
+            "mistral-large-4": 1881
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 6588,
+          "gzip": 1719,
+          "brotli": 1483,
+          "tokens": {
+            "o200k_base": 2445,
+            "cl100k_base": 2453,
+            "qwen3.8": 2685,
+            "deepseek-v4-pro": 2477,
+            "mistral-large-4": 2473
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 5361,
+          "gzip": 1699,
+          "brotli": 1465,
+          "tokens": {
+            "o200k_base": 1916,
+            "cl100k_base": 1923,
+            "qwen3.8": 2186,
+            "deepseek-v4-pro": 1992,
+            "mistral-large-4": 1961
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 4757,
+          "gzip": 1811,
+          "brotli": 1569,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 4529,
+          "gzip": 1626,
+          "brotli": 1418,
+          "tokens": {
+            "o200k_base": 1702,
+            "cl100k_base": 1718,
+            "qwen3.8": 1951,
+            "deepseek-v4-pro": 1740,
+            "mistral-large-4": 1727
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "hub-models",
+      "datasetLabel": "Hub model metadata (tag arrays)",
+      "kind": "real",
+      "count": 100,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 51839,
+          "gzip": 9848,
+          "brotli": 8428,
+          "tokens": {
+            "o200k_base": 16888,
+            "cl100k_base": 16835,
+            "qwen3.8": 18944,
+            "deepseek-v4-pro": 17804,
+            "mistral-large-4": 17110
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 72669,
+          "gzip": 10571,
+          "brotli": 8755,
+          "tokens": {
+            "o200k_base": 24181,
+            "cl100k_base": 24228,
+            "qwen3.8": 29585,
+            "deepseek-v4-pro": 24898,
+            "mistral-large-4": 24504
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 51838,
+          "gzip": 9848,
+          "brotli": 8431,
+          "tokens": {
+            "o200k_base": 16985,
+            "cl100k_base": 16932,
+            "qwen3.8": 19141,
+            "deepseek-v4-pro": 17802,
+            "mistral-large-4": 17208
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 59326,
+          "gzip": 10152,
+          "brotli": 8606,
+          "tokens": {
+            "o200k_base": 21744,
+            "cl100k_base": 21827,
+            "qwen3.8": 24116,
+            "deepseek-v4-pro": 21963,
+            "mistral-large-4": 21969
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 50386,
+          "gzip": 9991,
+          "brotli": 8611,
+          "tokens": {
+            "o200k_base": 17793,
+            "cl100k_base": 17847,
+            "qwen3.8": 20405,
+            "deepseek-v4-pro": 18346,
+            "mistral-large-4": 18111
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 44398,
+          "gzip": 10575,
+          "brotli": 9251,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 40727,
+          "gzip": 9374,
+          "brotli": 8117,
+          "tokens": {
+            "o200k_base": 15205,
+            "cl100k_base": 15387,
+            "qwen3.8": 17677,
+            "deepseek-v4-pro": 15501,
+            "mistral-large-4": 15396
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "hub-models",
+      "datasetLabel": "Hub model metadata (tag arrays)",
+      "kind": "real",
+      "count": 1000,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 537135,
+          "gzip": 104863,
+          "brotli": 67199,
+          "tokens": {
+            "o200k_base": 180114,
+            "cl100k_base": 179913,
+            "qwen3.8": 201823,
+            "deepseek-v4-pro": 189419,
+            "mistral-large-4": 182421
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 752391,
+          "gzip": 114401,
+          "brotli": 70084,
+          "tokens": {
+            "o200k_base": 255043,
+            "cl100k_base": 255842,
+            "qwen3.8": 311218,
+            "deepseek-v4-pro": 262349,
+            "mistral-large-4": 258351
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 537134,
+          "gzip": 104856,
+          "brotli": 67257,
+          "tokens": {
+            "o200k_base": 181111,
+            "cl100k_base": 180910,
+            "qwen3.8": 203820,
+            "deepseek-v4-pro": 189417,
+            "mistral-large-4": 183419
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 615996,
+          "gzip": 108896,
+          "brotli": 68481,
+          "tokens": {
+            "o200k_base": 231105,
+            "cl100k_base": 232091,
+            "qwen3.8": 255698,
+            "deepseek-v4-pro": 233902,
+            "mistral-large-4": 233777
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 522276,
+          "gzip": 105868,
+          "brotli": 68745,
+          "tokens": {
+            "o200k_base": 188504,
+            "cl100k_base": 188956,
+            "qwen3.8": 215470,
+            "deepseek-v4-pro": 193583,
+            "mistral-large-4": 191633
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 461077,
+          "gzip": 110609,
+          "brotli": 73515,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 425919,
+          "gzip": 97922,
+          "brotli": 65443,
+          "tokens": {
+            "o200k_base": 164323,
+            "cl100k_base": 166294,
+            "qwen3.8": 189892,
+            "deepseek-v4-pro": 167623,
+            "mistral-large-4": 166310
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "no-robots",
+      "datasetLabel": "No Robots chats (array of messages)",
+      "kind": "real",
+      "count": 1,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 1381,
+          "gzip": 783,
+          "brotli": 593,
+          "tokens": {
+            "o200k_base": 278,
+            "cl100k_base": 279,
+            "qwen3.8": 305,
+            "deepseek-v4-pro": 285,
+            "mistral-large-4": 288
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 1479,
+          "gzip": 803,
+          "brotli": 614,
+          "tokens": {
+            "o200k_base": 310,
+            "cl100k_base": 312,
+            "qwen3.8": 353,
+            "deepseek-v4-pro": 314,
+            "mistral-large-4": 322
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 1380,
+          "gzip": 783,
+          "brotli": 594,
+          "tokens": {
+            "o200k_base": 276,
+            "cl100k_base": 277,
+            "qwen3.8": 304,
+            "deepseek-v4-pro": 284,
+            "mistral-large-4": 286
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 1521,
+          "gzip": 807,
+          "brotli": 622,
+          "tokens": {
+            "o200k_base": 314,
+            "cl100k_base": 316,
+            "qwen3.8": 348,
+            "deepseek-v4-pro": 316,
+            "mistral-large-4": 325
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 1370,
+          "gzip": 779,
+          "brotli": 594,
+          "tokens": {
+            "o200k_base": 282,
+            "cl100k_base": 284,
+            "qwen3.8": 311,
+            "deepseek-v4-pro": 285,
+            "mistral-large-4": 293
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 1353,
+          "gzip": 781,
+          "brotli": 590,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 1360,
+          "gzip": 778,
+          "brotli": 599,
+          "tokens": {
+            "o200k_base": 275,
+            "cl100k_base": 277,
+            "qwen3.8": 306,
+            "deepseek-v4-pro": 281,
+            "mistral-large-4": 287
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "no-robots",
+      "datasetLabel": "No Robots chats (array of messages)",
+      "kind": "real",
+      "count": 10,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 20708,
+          "gzip": 8131,
+          "brotli": 6371,
+          "tokens": {
+            "o200k_base": 4705,
+            "cl100k_base": 4775,
+            "qwen3.8": 5006,
+            "deepseek-v4-pro": 4822,
+            "mistral-large-4": 4852
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 21679,
+          "gzip": 8175,
+          "brotli": 6407,
+          "tokens": {
+            "o200k_base": 5022,
+            "cl100k_base": 5102,
+            "qwen3.8": 5474,
+            "deepseek-v4-pro": 5123,
+            "mistral-large-4": 5189
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 20707,
+          "gzip": 8134,
+          "brotli": 6366,
+          "tokens": {
+            "o200k_base": 4703,
+            "cl100k_base": 4773,
+            "qwen3.8": 5014,
+            "deepseek-v4-pro": 4830,
+            "mistral-large-4": 4850
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 23195,
+          "gzip": 8653,
+          "brotli": 6829,
+          "tokens": {
+            "o200k_base": 5228,
+            "cl100k_base": 5303,
+            "qwen3.8": 5641,
+            "deepseek-v4-pro": 5267,
+            "mistral-large-4": 5403
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 20584,
+          "gzip": 8128,
+          "brotli": 6345,
+          "tokens": {
+            "o200k_base": 4745,
+            "cl100k_base": 4823,
+            "qwen3.8": 5056,
+            "deepseek-v4-pro": 4834,
+            "mistral-large-4": 4913
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 20309,
+          "gzip": 8184,
+          "brotli": 6387,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 20042,
+          "gzip": 8104,
+          "brotli": 6364,
+          "tokens": {
+            "o200k_base": 4571,
+            "cl100k_base": 4649,
+            "qwen3.8": 4892,
+            "deepseek-v4-pro": 4670,
+            "mistral-large-4": 4740
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "no-robots",
+      "datasetLabel": "No Robots chats (array of messages)",
+      "kind": "real",
+      "count": 100,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 143611,
+          "gzip": 56199,
+          "brotli": 45707,
+          "tokens": {
+            "o200k_base": 34408,
+            "cl100k_base": 34738,
+            "qwen3.8": 36874,
+            "deepseek-v4-pro": 35400,
+            "mistral-large-4": 35342
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 154400,
+          "gzip": 56636,
+          "brotli": 45927,
+          "tokens": {
+            "o200k_base": 37882,
+            "cl100k_base": 38312,
+            "qwen3.8": 41977,
+            "deepseek-v4-pro": 38689,
+            "mistral-large-4": 39046
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 143610,
+          "gzip": 56201,
+          "brotli": 45757,
+          "tokens": {
+            "o200k_base": 34406,
+            "cl100k_base": 34736,
+            "qwen3.8": 36972,
+            "deepseek-v4-pro": 35498,
+            "mistral-large-4": 35340
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 160164,
+          "gzip": 59323,
+          "brotli": 48321,
+          "tokens": {
+            "o200k_base": 37798,
+            "cl100k_base": 38204,
+            "qwen3.8": 41223,
+            "deepseek-v4-pro": 38218,
+            "mistral-large-4": 38984
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 141782,
+          "gzip": 56156,
+          "brotli": 45687,
+          "tokens": {
+            "o200k_base": 34677,
+            "cl100k_base": 35101,
+            "qwen3.8": 37240,
+            "deepseek-v4-pro": 35329,
+            "mistral-large-4": 35845
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 139675,
+          "gzip": 56628,
+          "brotli": 46105,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 135905,
+          "gzip": 55865,
+          "brotli": 45594,
+          "tokens": {
+            "o200k_base": 32846,
+            "cl100k_base": 33269,
+            "qwen3.8": 35507,
+            "deepseek-v4-pro": 33542,
+            "mistral-large-4": 34016
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "no-robots",
+      "datasetLabel": "No Robots chats (array of messages)",
+      "kind": "real",
+      "count": 1000,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 1427757,
+          "gzip": 550392,
+          "brotli": 425637,
+          "tokens": {
+            "o200k_base": 342272,
+            "cl100k_base": 345082,
+            "qwen3.8": 367327,
+            "deepseek-v4-pro": 352162,
+            "mistral-large-4": 351627
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 1538834,
+          "gzip": 554966,
+          "brotli": 427210,
+          "tokens": {
+            "o200k_base": 377824,
+            "cl100k_base": 381637,
+            "qwen3.8": 419534,
+            "deepseek-v4-pro": 385890,
+            "mistral-large-4": 389570
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 1427756,
+          "gzip": 550394,
+          "brotli": 425454,
+          "tokens": {
+            "o200k_base": 342270,
+            "cl100k_base": 345080,
+            "qwen3.8": 368325,
+            "deepseek-v4-pro": 353160,
+            "mistral-large-4": 351625
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 1590173,
+          "gzip": 581743,
+          "brotli": 448935,
+          "tokens": {
+            "o200k_base": 375628,
+            "cl100k_base": 379298,
+            "qwen3.8": 410240,
+            "deepseek-v4-pro": 379429,
+            "mistral-large-4": 387688
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 1407923,
+          "gzip": 549689,
+          "brotli": 425261,
+          "tokens": {
+            "o200k_base": 344544,
+            "cl100k_base": 348307,
+            "qwen3.8": 370548,
+            "deepseek-v4-pro": 350884,
+            "mistral-large-4": 356312
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 1387913,
+          "gzip": 554753,
+          "brotli": 429598,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 1348587,
+          "gzip": 546511,
+          "brotli": 424258,
+          "tokens": {
+            "o200k_base": 326077,
+            "cl100k_base": 329845,
+            "qwen3.8": 353088,
+            "deepseek-v4-pro": 332802,
+            "mistral-large-4": 337858
+          }
         }
       ]
     }
