@@ -1,11 +1,17 @@
 {
   "name": "internet-object-vs-json-benchmark",
-  "version": "1.0.0",
-  "description": "Internet Object vs. JSON benchmark",
+  "version": "2.0.0",
+  "description": "Reproducible benchmark of Internet Object vs JSON, NDJSON, CSV, YAML, TOON and MessagePack: bytes, compression, and token counts across LLM tokenizers",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "bench": "node index.js --out results",
+    "test": "node --test test/*.test.js",
+    "readme": "node scripts/update-readme.js",
+    "charts": "node scripts/make-charts.js",
+    "fetch-data": "node scripts/fetch-data.js",
+    "list": "node index.js --list"
   },
   "repository": {
     "type": "git",
@@ -13,13 +19,13 @@
   },
   "keywords": [
     "internet-object",
-    "internetobject",
     "json",
     "benchmark",
-    "rest",
-    "api",
-    "http",
-    "https"
+    "tokens",
+    "llm",
+    "tokenizer",
+    "toon",
+    "serialization"
   ],
   "author": "Mohamed Aamir Maniar",
   "license": "ISC",
@@ -28,7 +34,22 @@
   },
   "homepage": "https://github.com/maniartech/internet-object-vs-json-benchmark#readme",
   "dependencies": {
-    "@faker-js/faker": "^9.2.0",
-    "js-tiktoken": "^1.0.15"
+    "@faker-js/faker": "^9.9.0",
+    "@huggingface/tokenizers": "^0.2.0",
+    "@msgpack/msgpack": "^3.1.3",
+    "@toon-format/toon": "^4.4.0",
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "csv-stringify": "^6.9.0",
+    "gpt-tokenizer": "^4.1.0",
+    "internet-object": "file:vendor/internet-object-0.3.0-b6859d6.tgz",
+    "tinybench": "^6.2.3",
+    "yaml": "^2.9.1"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "io-bench": "index.js"
   }
 }
