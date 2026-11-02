@@ -1,0 +1,1547 @@
+{
+  "meta": {
+    "generatedAt": "2026-11-02T11:25:46.545Z",
+    "seed": 2026,
+    "node": "v22.22.1",
+    "internetObject": "0.3.0",
+    "counts": [
+      1,
+      10,
+      100,
+      1000
+    ]
+  },
+  "tokenizers": [
+    {
+      "id": "o200k_base",
+      "label": "OpenAI o200k_base",
+      "family": "OpenAI",
+      "models": [
+        "GPT-4o",
+        "GPT-4.1",
+        "GPT-5 family"
+      ]
+    },
+    {
+      "id": "cl100k_base",
+      "label": "OpenAI cl100k_base",
+      "family": "OpenAI",
+      "models": [
+        "GPT-4",
+        "GPT-3.5"
+      ]
+    },
+    {
+      "id": "qwen3.8",
+      "label": "Qwen 3.8",
+      "family": "Alibaba",
+      "models": [
+        "Qwen/Qwen3.8-27B"
+      ]
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "label": "DeepSeek V4 Pro",
+      "family": "DeepSeek",
+      "models": [
+        "deepseek-ai/DeepSeek-V4-Pro"
+      ]
+    },
+    {
+      "id": "mistral-large-4",
+      "label": "Mistral Large 4",
+      "family": "Mistral",
+      "models": [
+        "mistralai/Mistral-Large-4-1T-A52B"
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "dataset": "users",
+      "datasetLabel": "Users (nested object + array)",
+      "count": 1,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 180,
+          "gzip": 169,
+          "brotli": 129,
+          "tokens": {
+            "o200k_base": 56,
+            "cl100k_base": 53,
+            "qwen3.8": 60,
+            "deepseek-v4-pro": 58,
+            "mistral-large-4": 55
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 269,
+          "gzip": 196,
+          "brotli": 162,
+          "tokens": {
+            "o200k_base": 92,
+            "cl100k_base": 91,
+            "qwen3.8": 113,
+            "deepseek-v4-pro": 93,
+            "mistral-large-4": 93
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 179,
+          "gzip": 170,
+          "brotli": 132,
+          "tokens": {
+            "o200k_base": 55,
+            "cl100k_base": 52,
+            "qwen3.8": 60,
+            "deepseek-v4-pro": 57,
+            "mistral-large-4": 54
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 184,
+          "gzip": 163,
+          "brotli": 137,
+          "tokens": {
+            "o200k_base": 67,
+            "cl100k_base": 66,
+            "qwen3.8": 75,
+            "deepseek-v4-pro": 67,
+            "mistral-large-4": 67
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 197,
+          "gzip": 171,
+          "brotli": 136,
+          "tokens": {
+            "o200k_base": 68,
+            "cl100k_base": 67,
+            "qwen3.8": 76,
+            "deepseek-v4-pro": 68,
+            "mistral-large-4": 68
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 139,
+          "gzip": 157,
+          "brotli": 117,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 177,
+          "gzip": 173,
+          "brotli": 143,
+          "tokens": {
+            "o200k_base": 62,
+            "cl100k_base": 61,
+            "qwen3.8": 69,
+            "deepseek-v4-pro": 63,
+            "mistral-large-4": 62
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "users",
+      "datasetLabel": "Users (nested object + array)",
+      "count": 10,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 1926,
+          "gzip": 720,
+          "brotli": 635,
+          "tokens": {
+            "o200k_base": 586,
+            "cl100k_base": 564,
+            "qwen3.8": 634,
+            "deepseek-v4-pro": 600,
+            "mistral-large-4": 587
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 2897,
+          "gzip": 766,
+          "brotli": 677,
+          "tokens": {
+            "o200k_base": 976,
+            "cl100k_base": 974,
+            "qwen3.8": 1197,
+            "deepseek-v4-pro": 980,
+            "mistral-large-4": 997
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 1925,
+          "gzip": 720,
+          "brotli": 635,
+          "tokens": {
+            "o200k_base": 594,
+            "cl100k_base": 572,
+            "qwen3.8": 652,
+            "deepseek-v4-pro": 608,
+            "mistral-large-4": 595
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 2005,
+          "gzip": 706,
+          "brotli": 626,
+          "tokens": {
+            "o200k_base": 722,
+            "cl100k_base": 721,
+            "qwen3.8": 811,
+            "deepseek-v4-pro": 727,
+            "mistral-large-4": 743
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 2076,
+          "gzip": 715,
+          "brotli": 638,
+          "tokens": {
+            "o200k_base": 705,
+            "cl100k_base": 703,
+            "qwen3.8": 785,
+            "deepseek-v4-pro": 710,
+            "mistral-large-4": 723
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 1473,
+          "gzip": 728,
+          "brotli": 653,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 1082,
+          "gzip": 660,
+          "brotli": 585,
+          "tokens": {
+            "o200k_base": 422,
+            "cl100k_base": 429,
+            "qwen3.8": 500,
+            "deepseek-v4-pro": 426,
+            "mistral-large-4": 440
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "users",
+      "datasetLabel": "Users (nested object + array)",
+      "count": 100,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 19681,
+          "gzip": 4844,
+          "brotli": 4207,
+          "tokens": {
+            "o200k_base": 5976,
+            "cl100k_base": 5737,
+            "qwen3.8": 6433,
+            "deepseek-v4-pro": 6159,
+            "mistral-large-4": 5976
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 29572,
+          "gzip": 5032,
+          "brotli": 4330,
+          "tokens": {
+            "o200k_base": 9951,
+            "cl100k_base": 9912,
+            "qwen3.8": 12152,
+            "deepseek-v4-pro": 10032,
+            "mistral-large-4": 10151
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 19680,
+          "gzip": 4845,
+          "brotli": 4220,
+          "tokens": {
+            "o200k_base": 6074,
+            "cl100k_base": 5835,
+            "qwen3.8": 6631,
+            "deepseek-v4-pro": 6257,
+            "mistral-large-4": 6074
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 20485,
+          "gzip": 4814,
+          "brotli": 4183,
+          "tokens": {
+            "o200k_base": 7429,
+            "cl100k_base": 7377,
+            "qwen3.8": 8285,
+            "deepseek-v4-pro": 7463,
+            "mistral-large-4": 7550
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 21245,
+          "gzip": 4895,
+          "brotli": 4251,
+          "tokens": {
+            "o200k_base": 7254,
+            "cl100k_base": 7206,
+            "qwen3.8": 8006,
+            "deepseek-v4-pro": 7293,
+            "mistral-large-4": 7375
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 15071,
+          "gzip": 5099,
+          "brotli": 4492,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 10263,
+          "gzip": 4449,
+          "brotli": 3897,
+          "tokens": {
+            "o200k_base": 4114,
+            "cl100k_base": 4157,
+            "qwen3.8": 4862,
+            "deepseek-v4-pro": 4156,
+            "mistral-large-4": 4220
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "users",
+      "datasetLabel": "Users (nested object + array)",
+      "count": 1000,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 196913,
+          "gzip": 40779,
+          "brotli": 33149,
+          "tokens": {
+            "o200k_base": 59834,
+            "cl100k_base": 57383,
+            "qwen3.8": 64402,
+            "deepseek-v4-pro": 61653,
+            "mistral-large-4": 59755
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 295512,
+          "gzip": 43677,
+          "brotli": 34177,
+          "tokens": {
+            "o200k_base": 99507,
+            "cl100k_base": 99056,
+            "qwen3.8": 121461,
+            "deepseek-v4-pro": 100310,
+            "mistral-large-4": 101428
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 196912,
+          "gzip": 40777,
+          "brotli": 33143,
+          "tokens": {
+            "o200k_base": 60832,
+            "cl100k_base": 58381,
+            "qwen3.8": 66400,
+            "deepseek-v4-pro": 62651,
+            "mistral-large-4": 60753
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 204743,
+          "gzip": 40853,
+          "brotli": 33054,
+          "tokens": {
+            "o200k_base": 74285,
+            "cl100k_base": 73794,
+            "qwen3.8": 82872,
+            "deepseek-v4-pro": 74767,
+            "mistral-large-4": 75530
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 212664,
+          "gzip": 41391,
+          "brotli": 33446,
+          "tokens": {
+            "o200k_base": 72658,
+            "cl100k_base": 72101,
+            "qwen3.8": 80139,
+            "deepseek-v4-pro": 73133,
+            "mistral-large-4": 73779
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 150822,
+          "gzip": 42139,
+          "brotli": 35379,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 101925,
+          "gzip": 35678,
+          "brotli": 30583,
+          "tokens": {
+            "o200k_base": 40955,
+            "cl100k_base": 41444,
+            "qwen3.8": 48481,
+            "deepseek-v4-pro": 41507,
+            "mistral-large-4": 42096
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "orders",
+      "datasetLabel": "Orders (array of objects)",
+      "count": 1,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 284,
+          "gzip": 234,
+          "brotli": 199,
+          "tokens": {
+            "o200k_base": 106,
+            "cl100k_base": 108,
+            "qwen3.8": 131,
+            "deepseek-v4-pro": 110,
+            "mistral-large-4": 106
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 440,
+          "gzip": 266,
+          "brotli": 236,
+          "tokens": {
+            "o200k_base": 160,
+            "cl100k_base": 163,
+            "qwen3.8": 205,
+            "deepseek-v4-pro": 164,
+            "mistral-large-4": 162
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 283,
+          "gzip": 234,
+          "brotli": 199,
+          "tokens": {
+            "o200k_base": 105,
+            "cl100k_base": 107,
+            "qwen3.8": 131,
+            "deepseek-v4-pro": 109,
+            "mistral-large-4": 105
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 305,
+          "gzip": 230,
+          "brotli": 194,
+          "tokens": {
+            "o200k_base": 125,
+            "cl100k_base": 128,
+            "qwen3.8": 152,
+            "deepseek-v4-pro": 131,
+            "mistral-large-4": 127
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 262,
+          "gzip": 230,
+          "brotli": 193,
+          "tokens": {
+            "o200k_base": 111,
+            "cl100k_base": 113,
+            "qwen3.8": 137,
+            "deepseek-v4-pro": 111,
+            "mistral-large-4": 112
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 241,
+          "gzip": 240,
+          "brotli": 207,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 252,
+          "gzip": 231,
+          "brotli": 198,
+          "tokens": {
+            "o200k_base": 106,
+            "cl100k_base": 109,
+            "qwen3.8": 133,
+            "deepseek-v4-pro": 110,
+            "mistral-large-4": 110
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "orders",
+      "datasetLabel": "Orders (array of objects)",
+      "count": 10,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 3513,
+          "gzip": 1437,
+          "brotli": 1257,
+          "tokens": {
+            "o200k_base": 1304,
+            "cl100k_base": 1306,
+            "qwen3.8": 1560,
+            "deepseek-v4-pro": 1363,
+            "mistral-large-4": 1300
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 5550,
+          "gzip": 1510,
+          "brotli": 1311,
+          "tokens": {
+            "o200k_base": 1988,
+            "cl100k_base": 2000,
+            "qwen3.8": 2480,
+            "deepseek-v4-pro": 2047,
+            "mistral-large-4": 2004
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 3512,
+          "gzip": 1440,
+          "brotli": 1256,
+          "tokens": {
+            "o200k_base": 1312,
+            "cl100k_base": 1314,
+            "qwen3.8": 1578,
+            "deepseek-v4-pro": 1371,
+            "mistral-large-4": 1308
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 3858,
+          "gzip": 1439,
+          "brotli": 1260,
+          "tokens": {
+            "o200k_base": 1564,
+            "cl100k_base": 1574,
+            "qwen3.8": 1838,
+            "deepseek-v4-pro": 1649,
+            "mistral-large-4": 1585
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 3024,
+          "gzip": 1408,
+          "brotli": 1261,
+          "tokens": {
+            "o200k_base": 1274,
+            "cl100k_base": 1283,
+            "qwen3.8": 1539,
+            "deepseek-v4-pro": 1291,
+            "mistral-large-4": 1292
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 2982,
+          "gzip": 1584,
+          "brotli": 1400,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 2275,
+          "gzip": 1373,
+          "brotli": 1197,
+          "tokens": {
+            "o200k_base": 1059,
+            "cl100k_base": 1070,
+            "qwen3.8": 1325,
+            "deepseek-v4-pro": 1094,
+            "mistral-large-4": 1087
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "orders",
+      "datasetLabel": "Orders (array of objects)",
+      "count": 100,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 35356,
+          "gzip": 10837,
+          "brotli": 9346,
+          "tokens": {
+            "o200k_base": 13216,
+            "cl100k_base": 13243,
+            "qwen3.8": 15735,
+            "deepseek-v4-pro": 13869,
+            "mistral-large-4": 13218
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 55771,
+          "gzip": 11241,
+          "brotli": 9629,
+          "tokens": {
+            "o200k_base": 20072,
+            "cl100k_base": 20199,
+            "qwen3.8": 24947,
+            "deepseek-v4-pro": 20722,
+            "mistral-large-4": 20274
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 35355,
+          "gzip": 10833,
+          "brotli": 9343,
+          "tokens": {
+            "o200k_base": 13314,
+            "cl100k_base": 13341,
+            "qwen3.8": 15933,
+            "deepseek-v4-pro": 13967,
+            "mistral-large-4": 13316
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 38829,
+          "gzip": 10918,
+          "brotli": 9463,
+          "tokens": {
+            "o200k_base": 15786,
+            "cl100k_base": 15891,
+            "qwen3.8": 18495,
+            "deepseek-v4-pro": 16687,
+            "mistral-large-4": 16004
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 30404,
+          "gzip": 10737,
+          "brotli": 9387,
+          "tokens": {
+            "o200k_base": 12882,
+            "cl100k_base": 12961,
+            "qwen3.8": 15468,
+            "deepseek-v4-pro": 13106,
+            "mistral-large-4": 13059
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 29978,
+          "gzip": 11644,
+          "brotli": 10070,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 22290,
+          "gzip": 10390,
+          "brotli": 9022,
+          "tokens": {
+            "o200k_base": 10540,
+            "cl100k_base": 10655,
+            "qwen3.8": 13157,
+            "deepseek-v4-pro": 10957,
+            "mistral-large-4": 10854
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "orders",
+      "datasetLabel": "Orders (array of objects)",
+      "count": 1000,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 359701,
+          "gzip": 101101,
+          "brotli": 83241,
+          "tokens": {
+            "o200k_base": 134024,
+            "cl100k_base": 134117,
+            "qwen3.8": 159227,
+            "deepseek-v4-pro": 140585,
+            "mistral-large-4": 134021
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 567946,
+          "gzip": 106446,
+          "brotli": 85701,
+          "tokens": {
+            "o200k_base": 203800,
+            "cl100k_base": 204893,
+            "qwen3.8": 252934,
+            "deepseek-v4-pro": 210332,
+            "mistral-large-4": 205797
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 359700,
+          "gzip": 101010,
+          "brotli": 83325,
+          "tokens": {
+            "o200k_base": 135022,
+            "cl100k_base": 135115,
+            "qwen3.8": 161225,
+            "deepseek-v4-pro": 141583,
+            "mistral-large-4": 135019
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 395504,
+          "gzip": 102337,
+          "brotli": 83985,
+          "tokens": {
+            "o200k_base": 160258,
+            "cl100k_base": 161212,
+            "qwen3.8": 187443,
+            "deepseek-v4-pro": 169593,
+            "mistral-large-4": 162616
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 308085,
+          "gzip": 99646,
+          "brotli": 83280,
+          "tokens": {
+            "o200k_base": 130199,
+            "cl100k_base": 130947,
+            "qwen3.8": 156181,
+            "deepseek-v4-pro": 132518,
+            "mistral-large-4": 132118
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 305036,
+          "gzip": 106467,
+          "brotli": 88220,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 226342,
+          "gzip": 95516,
+          "brotli": 80562,
+          "tokens": {
+            "o200k_base": 106578,
+            "cl100k_base": 107577,
+            "qwen3.8": 132797,
+            "deepseek-v4-pro": 110902,
+            "mistral-large-4": 109837
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "metrics",
+      "datasetLabel": "Metrics (flat, numeric)",
+      "count": 1,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 89,
+          "gzip": 100,
+          "brotli": 79,
+          "tokens": {
+            "o200k_base": 45,
+            "cl100k_base": 45,
+            "qwen3.8": 56,
+            "deepseek-v4-pro": 45,
+            "mistral-large-4": 45
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 132,
+          "gzip": 111,
+          "brotli": 105,
+          "tokens": {
+            "o200k_base": 66,
+            "cl100k_base": 66,
+            "qwen3.8": 85,
+            "deepseek-v4-pro": 66,
+            "mistral-large-4": 66
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 88,
+          "gzip": 99,
+          "brotli": 81,
+          "tokens": {
+            "o200k_base": 44,
+            "cl100k_base": 44,
+            "qwen3.8": 56,
+            "deepseek-v4-pro": 44,
+            "mistral-large-4": 44
+          }
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 67,
+          "gzip": 82,
+          "brotli": 71,
+          "tokens": {
+            "o200k_base": 43,
+            "cl100k_base": 43,
+            "qwen3.8": 54,
+            "deepseek-v4-pro": 43,
+            "mistral-large-4": 43
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 88,
+          "gzip": 96,
+          "brotli": 87,
+          "tokens": {
+            "o200k_base": 53,
+            "cl100k_base": 53,
+            "qwen3.8": 64,
+            "deepseek-v4-pro": 53,
+            "mistral-large-4": 53
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 79,
+          "gzip": 94,
+          "brotli": 77,
+          "tokens": {
+            "o200k_base": 47,
+            "cl100k_base": 47,
+            "qwen3.8": 58,
+            "deepseek-v4-pro": 48,
+            "mistral-large-4": 47
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 75,
+          "gzip": 88,
+          "brotli": 79,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 85,
+          "gzip": 96,
+          "brotli": 87,
+          "tokens": {
+            "o200k_base": 49,
+            "cl100k_base": 49,
+            "qwen3.8": 61,
+            "deepseek-v4-pro": 49,
+            "mistral-large-4": 49
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "metrics",
+      "datasetLabel": "Metrics (flat, numeric)",
+      "count": 10,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 888,
+          "gzip": 252,
+          "brotli": 208,
+          "tokens": {
+            "o200k_base": 437,
+            "cl100k_base": 437,
+            "qwen3.8": 549,
+            "deepseek-v4-pro": 437,
+            "mistral-large-4": 437
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 1309,
+          "gzip": 278,
+          "brotli": 231,
+          "tokens": {
+            "o200k_base": 647,
+            "cl100k_base": 647,
+            "qwen3.8": 830,
+            "deepseek-v4-pro": 647,
+            "mistral-large-4": 647
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 887,
+          "gzip": 251,
+          "brotli": 206,
+          "tokens": {
+            "o200k_base": 445,
+            "cl100k_base": 445,
+            "qwen3.8": 567,
+            "deepseek-v4-pro": 445,
+            "mistral-large-4": 445
+          }
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 461,
+          "gzip": 201,
+          "brotli": 178,
+          "tokens": {
+            "o200k_base": 318,
+            "cl100k_base": 318,
+            "qwen3.8": 430,
+            "deepseek-v4-pro": 318,
+            "mistral-large-4": 318
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 887,
+          "gzip": 246,
+          "brotli": 207,
+          "tokens": {
+            "o200k_base": 535,
+            "cl100k_base": 535,
+            "qwen3.8": 647,
+            "deepseek-v4-pro": 535,
+            "mistral-large-4": 535
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 537,
+          "gzip": 219,
+          "brotli": 196,
+          "tokens": {
+            "o200k_base": 331,
+            "cl100k_base": 331,
+            "qwen3.8": 444,
+            "deepseek-v4-pro": 341,
+            "mistral-large-4": 331
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 729,
+          "gzip": 267,
+          "brotli": 249,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 560,
+          "gzip": 228,
+          "brotli": 200,
+          "tokens": {
+            "o200k_base": 369,
+            "cl100k_base": 369,
+            "qwen3.8": 482,
+            "deepseek-v4-pro": 369,
+            "mistral-large-4": 369
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "metrics",
+      "datasetLabel": "Metrics (flat, numeric)",
+      "count": 100,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 8846,
+          "gzip": 1406,
+          "brotli": 1123,
+          "tokens": {
+            "o200k_base": 4329,
+            "cl100k_base": 4329,
+            "qwen3.8": 5439,
+            "deepseek-v4-pro": 4329,
+            "mistral-large-4": 4329
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 13047,
+          "gzip": 1471,
+          "brotli": 1173,
+          "tokens": {
+            "o200k_base": 6429,
+            "cl100k_base": 6429,
+            "qwen3.8": 8240,
+            "deepseek-v4-pro": 6429,
+            "mistral-large-4": 6429
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 8845,
+          "gzip": 1405,
+          "brotli": 1129,
+          "tokens": {
+            "o200k_base": 4427,
+            "cl100k_base": 4427,
+            "qwen3.8": 5637,
+            "deepseek-v4-pro": 4427,
+            "mistral-large-4": 4427
+          }
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 4353,
+          "gzip": 1199,
+          "brotli": 984,
+          "tokens": {
+            "o200k_base": 3024,
+            "cl100k_base": 3024,
+            "qwen3.8": 4142,
+            "deepseek-v4-pro": 3024,
+            "mistral-large-4": 3024
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 8845,
+          "gzip": 1396,
+          "brotli": 1116,
+          "tokens": {
+            "o200k_base": 5327,
+            "cl100k_base": 5327,
+            "qwen3.8": 6437,
+            "deepseek-v4-pro": 5327,
+            "mistral-large-4": 5327
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 5076,
+          "gzip": 1238,
+          "brotli": 1043,
+          "tokens": {
+            "o200k_base": 3143,
+            "cl100k_base": 3143,
+            "qwen3.8": 4255,
+            "deepseek-v4-pro": 3243,
+            "mistral-large-4": 3143
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 7207,
+          "gzip": 1501,
+          "brotli": 1291,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 5270,
+          "gzip": 1272,
+          "brotli": 1085,
+          "tokens": {
+            "o200k_base": 3541,
+            "cl100k_base": 3541,
+            "qwen3.8": 4652,
+            "deepseek-v4-pro": 3541,
+            "mistral-large-4": 3541
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "metrics",
+      "datasetLabel": "Metrics (flat, numeric)",
+      "count": 1000,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "bytes": 88471,
+          "gzip": 11914,
+          "brotli": 9882,
+          "tokens": {
+            "o200k_base": 43374,
+            "cl100k_base": 43374,
+            "qwen3.8": 54419,
+            "deepseek-v4-pro": 43374,
+            "mistral-large-4": 43374
+          }
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "bytes": 130472,
+          "gzip": 12490,
+          "brotli": 10502,
+          "tokens": {
+            "o200k_base": 64374,
+            "cl100k_base": 64374,
+            "qwen3.8": 82420,
+            "deepseek-v4-pro": 64374,
+            "mistral-large-4": 64374
+          }
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "bytes": 88470,
+          "gzip": 11913,
+          "brotli": 9890,
+          "tokens": {
+            "o200k_base": 44372,
+            "cl100k_base": 44372,
+            "qwen3.8": 56417,
+            "deepseek-v4-pro": 44372,
+            "mistral-large-4": 44372
+          }
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "bytes": 43388,
+          "gzip": 10752,
+          "brotli": 9054,
+          "tokens": {
+            "o200k_base": 30279,
+            "cl100k_base": 30279,
+            "qwen3.8": 41377,
+            "deepseek-v4-pro": 30279,
+            "mistral-large-4": 30279
+          }
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "bytes": 88470,
+          "gzip": 11843,
+          "brotli": 9940,
+          "tokens": {
+            "o200k_base": 53372,
+            "cl100k_base": 53372,
+            "qwen3.8": 64417,
+            "deepseek-v4-pro": 53372,
+            "mistral-large-4": 53372
+          }
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "bytes": 50502,
+          "gzip": 10843,
+          "brotli": 9322,
+          "tokens": {
+            "o200k_base": 31389,
+            "cl100k_base": 31389,
+            "qwen3.8": 42436,
+            "deepseek-v4-pro": 32389,
+            "mistral-large-4": 31389
+          }
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "bytes": 72469,
+          "gzip": 12377,
+          "brotli": 10737,
+          "tokens": {}
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "bytes": 52450,
+          "gzip": 11042,
+          "brotli": 9550,
+          "tokens": {
+            "o200k_base": 35386,
+            "cl100k_base": 35386,
+            "qwen3.8": 46432,
+            "deepseek-v4-pro": 35386,
+            "mistral-large-4": 35386
+          }
+        }
+      ]
+    }
+  ],
+  "speed": [
+    {
+      "dataset": "users",
+      "datasetLabel": "Users (nested object + array)",
+      "count": 1000,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "serialize": 864.6561128589876,
+          "parse": 593.1960222412737
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "serialize": 633.113047400967,
+          "parse": 521.8383017676867
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "serialize": 681.4935493425396,
+          "parse": 446.3870194325589
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "serialize": 8.866451145916738,
+          "parse": 5.051907412899987
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "serialize": 47.64129735170812,
+          "parse": 27.646413388992247
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "serialize": 155.86931401210583,
+          "parse": 357.91280812025263
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "serialize": 262.8534734959392,
+          "parse": 15.358949950134003
+        }
+      ]
+    },
+    {
+      "dataset": "orders",
+      "datasetLabel": "Orders (array of objects)",
+      "count": 1000,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "serialize": 422.6757013643474,
+          "parse": 300.46162978675204
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "serialize": 306.7052634572774,
+          "parse": 281.57982713825356
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "serialize": 365.6917029255754,
+          "parse": 250.826926375186
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "serialize": 6.404990488286986,
+          "parse": 3.0977744225052213
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "serialize": 30.932881494053643,
+          "parse": 14.245792267437496
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "serialize": 90.9600391386745,
+          "parse": 236.22792680875543
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "serialize": 164.17632952885353,
+          "parse": 6.598877296956844
+        }
+      ]
+    },
+    {
+      "dataset": "metrics",
+      "datasetLabel": "Metrics (flat, numeric)",
+      "count": 1000,
+      "rows": [
+        {
+          "id": "json",
+          "label": "JSON",
+          "serialize": 1566.6365341292353,
+          "parse": 1347.5344438768075
+        },
+        {
+          "id": "json-pretty",
+          "label": "JSON (pretty)",
+          "serialize": 1401.2414151944877,
+          "parse": 1299.088765853561
+        },
+        {
+          "id": "ndjson",
+          "label": "NDJSON",
+          "serialize": 1047.611357977989,
+          "parse": 942.6603702291743
+        },
+        {
+          "id": "csv",
+          "label": "CSV",
+          "serialize": 261.85561490671773
+        },
+        {
+          "id": "yaml",
+          "label": "YAML",
+          "serialize": 21.65152484998615,
+          "parse": 8.65510512116935
+        },
+        {
+          "id": "toon",
+          "label": "TOON",
+          "serialize": 182.97467924380663,
+          "parse": 71.39992112066489
+        },
+        {
+          "id": "msgpack",
+          "label": "MessagePack",
+          "serialize": 455.06337627012635,
+          "parse": 949.1655002580874
+        },
+        {
+          "id": "io",
+          "label": "Internet Object",
+          "serialize": 738.7477422382408,
+          "parse": 45.38269300933297
+        }
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "dataset": "users",
+      "datasetLabel": "Users (nested object + array)",
+      "count": 1000,
+      "rows": [
+        {
+          "group": "Text → validated data",
+          "id": "json-ajv",
+          "label": "JSON.parse + Ajv",
+          "opsPerSec": 464.83598907053863
+        },
+        {
+          "group": "Text → validated data",
+          "id": "io-typed",
+          "label": "IO parse (typed schema)",
+          "opsPerSec": 14.995664536517067
+        },
+        {
+          "group": "Text → data, no validation",
+          "id": "json-parse",
+          "label": "JSON.parse",
+          "opsPerSec": 578.6134531878428
+        },
+        {
+          "group": "Text → data, no validation",
+          "id": "io-untyped",
+          "label": "IO parse (untyped header)",
+          "opsPerSec": 16.01734809426839
+        },
+        {
+          "group": "Objects → validated",
+          "id": "ajv",
+          "label": "Ajv (compiled)",
+          "opsPerSec": 2155.3862605012987
+        },
+        {
+          "group": "Objects → validated",
+          "id": "io-validate",
+          "label": "IO validateCollection",
+          "opsPerSec": 49.86653735369541
+        }
+      ]
+    },
+    {
+      "dataset": "metrics",
+      "datasetLabel": "Metrics (flat, numeric)",
+      "count": 1000,
+      "rows": [
+        {
+          "group": "Text → validated data",
+          "id": "json-ajv",
+          "label": "JSON.parse + Ajv",
+          "opsPerSec": 1295.3048896541675
+        },
+        {
+          "group": "Text → validated data",
+          "id": "io-typed",
+          "label": "IO parse (typed schema)",
+          "opsPerSec": 38.640078001033196
+        },
+        {
+          "group": "Text → data, no validation",
+          "id": "json-parse",
+          "label": "JSON.parse",
+          "opsPerSec": 1294.1415536318063
+        },
+        {
+          "group": "Text → data, no validation",
+          "id": "io-untyped",
+          "label": "IO parse (untyped header)",
+          "opsPerSec": 38.93139289144166
+        },
+        {
+          "group": "Objects → validated",
+          "id": "ajv",
+          "label": "Ajv (compiled)",
+          "opsPerSec": 15099.492043848517
+        },
+        {
+          "group": "Objects → validated",
+          "id": "io-validate",
+          "label": "IO validateCollection",
+          "opsPerSec": 55.40144547318925
+        }
+      ]
+    }
+  ]
+}

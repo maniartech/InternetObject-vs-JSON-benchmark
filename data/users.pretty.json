@@ -1,0 +1,1645 @@
+[
+  {
+    "name": "Joan Hickle",
+    "age": 48,
+    "gender": "f",
+    "joiningDt": "2021-05-13",
+    "address": {
+      "street": "9195 Franklin Road",
+      "city": "West Skylar"
+    },
+    "colors": [
+      "magenta",
+      "yellow"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Tiffany Bahringer",
+    "age": 28,
+    "gender": "f",
+    "joiningDt": "2023-01-05",
+    "address": {
+      "street": "7865 Gerhold Mall",
+      "city": "Jennieberg"
+    },
+    "colors": [
+      "grey",
+      "white",
+      "fuchsia"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Lynn Vandervort",
+    "age": 31,
+    "gender": "m",
+    "joiningDt": "2022-02-08",
+    "address": {
+      "street": "1694 Olson Points",
+      "city": "Laceyland"
+    },
+    "colors": [
+      "blue",
+      "gold",
+      "yellow"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Wallace Beer",
+    "age": 50,
+    "gender": "m",
+    "joiningDt": "2022-11-02",
+    "address": {
+      "street": "87287 Elm Street",
+      "city": "East Reillyhaven",
+      "state": "CA"
+    },
+    "colors": [
+      "indigo",
+      "red"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Jaime Weber",
+    "age": 42,
+    "gender": "m",
+    "joiningDt": "2021-03-17",
+    "address": {
+      "street": "3666 Koss Valleys",
+      "city": "Kautzercester",
+      "state": "WV"
+    },
+    "colors": [
+      "violet",
+      "ivory"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "May Feeney",
+    "age": 46,
+    "gender": "f",
+    "joiningDt": "2022-10-18",
+    "address": {
+      "street": "247 Northfield Road",
+      "city": "Marianneboro",
+      "state": "GA"
+    },
+    "colors": [
+      "teal",
+      "grey",
+      "lavender"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Cesar Little",
+    "age": 41,
+    "gender": "m",
+    "joiningDt": "2021-06-23",
+    "address": {
+      "street": "77759 Chauncey Court",
+      "city": "Vivianecester",
+      "state": "KY"
+    },
+    "colors": [
+      "plum",
+      "tan",
+      "gold"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Valerie Bergstrom",
+    "age": 28,
+    "gender": "f",
+    "joiningDt": "2021-10-19",
+    "address": {
+      "street": "31791 Delilah Well",
+      "city": "Stehrberg",
+      "state": "CO"
+    },
+    "colors": [
+      "turquoise",
+      "red",
+      "yellow"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Becky Doyle DDS",
+    "age": 41,
+    "gender": "f",
+    "joiningDt": "2021-06-30",
+    "address": {
+      "street": "278 Metz Meadows",
+      "city": "North Isaiah",
+      "state": "MA"
+    },
+    "colors": [
+      "gold",
+      "black"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Forrest Schiller",
+    "age": 50,
+    "gender": "f",
+    "joiningDt": "2021-08-01",
+    "address": {
+      "street": "64504 Pagac Parkway",
+      "city": "Port Kole"
+    },
+    "colors": [
+      "orchid",
+      "orchid",
+      "salmon"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Lynn Mante",
+    "age": 36,
+    "gender": "f",
+    "joiningDt": "2023-10-07",
+    "address": {
+      "street": "8591 Hall Street",
+      "city": "West Julesview",
+      "state": "MS"
+    },
+    "colors": [
+      "teal",
+      "lavender",
+      "maroon"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Elijah Roberts",
+    "age": 40,
+    "gender": "m",
+    "joiningDt": "2023-08-22",
+    "address": {
+      "street": "133 Aufderhar Crescent",
+      "city": "Salvatorefield",
+      "state": "MD"
+    },
+    "colors": [
+      "lime",
+      "grey",
+      "pink"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Glen Becker",
+    "age": 35,
+    "gender": "m",
+    "joiningDt": "2022-12-12",
+    "address": {
+      "street": "385 Lucas Cliff",
+      "city": "Lake Cecilborough",
+      "state": "NY"
+    },
+    "colors": [
+      "teal",
+      "salmon"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Gary Cormier II",
+    "age": 23,
+    "gender": "f",
+    "joiningDt": "2022-04-27",
+    "address": {
+      "street": "580 E Broadway Street",
+      "city": "North Magnuscester",
+      "state": "WV"
+    },
+    "colors": [
+      "red",
+      "teal"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Dana Beatty I",
+    "age": 45,
+    "gender": "f",
+    "joiningDt": "2021-09-26",
+    "address": {
+      "street": "340 Kling Hills",
+      "city": "South Fernside",
+      "state": "TN"
+    },
+    "colors": [
+      "orchid",
+      "mint green",
+      "salmon"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Lester Watsica",
+    "age": 23,
+    "gender": "f",
+    "joiningDt": "2021-09-17",
+    "address": {
+      "street": "89685 Kassandra Park",
+      "city": "New Eltaside",
+      "state": "WA"
+    },
+    "colors": [
+      "sky blue",
+      "tan",
+      "olive"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Alicia Grady",
+    "age": 41,
+    "gender": "m",
+    "joiningDt": "2021-01-03",
+    "address": {
+      "street": "6099 Derrick Island",
+      "city": "Watsonville",
+      "state": "CO"
+    },
+    "colors": [
+      "tan",
+      "pink",
+      "azure"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Marlene Sawayn",
+    "age": 25,
+    "gender": "m",
+    "joiningDt": "2022-12-07",
+    "address": {
+      "street": "8595 Annamae Cliff",
+      "city": "Stillwater",
+      "state": "WI"
+    },
+    "colors": [
+      "red",
+      "grey",
+      "silver"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Jorge Volkman",
+    "age": 25,
+    "gender": "m",
+    "joiningDt": "2022-05-26",
+    "address": {
+      "street": "3441 Hills Fords",
+      "city": "Davisfurt"
+    },
+    "colors": [
+      "mint green",
+      "tan",
+      "purple"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Roberto Quitzon",
+    "age": 48,
+    "gender": "f",
+    "joiningDt": "2022-04-23",
+    "address": {
+      "street": "793 Reilly Groves",
+      "city": "Wiegandton",
+      "state": "LA"
+    },
+    "colors": [
+      "green",
+      "salmon"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Kyle Roberts",
+    "age": 34,
+    "gender": "f",
+    "joiningDt": "2021-04-03",
+    "address": {
+      "street": "49038 Wehner Manor",
+      "city": "Concord",
+      "state": "AK"
+    },
+    "colors": [
+      "purple",
+      "turquoise",
+      "tan"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Minnie Hudson",
+    "age": 48,
+    "gender": "m",
+    "joiningDt": "2023-06-12",
+    "address": {
+      "street": "784 North Lane",
+      "city": "Fort Kaci",
+      "state": "CO"
+    },
+    "colors": [
+      "lavender",
+      "orchid"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Maureen Hessel",
+    "age": 36,
+    "gender": "f",
+    "joiningDt": "2021-11-07",
+    "address": {
+      "street": "680 MacGyver Village",
+      "city": "Bradenstead"
+    },
+    "colors": [
+      "orange",
+      "red"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Cedric Hirthe II",
+    "age": 48,
+    "gender": "f",
+    "joiningDt": "2021-01-01",
+    "address": {
+      "street": "528 Powlowski Lakes",
+      "city": "South Ashley",
+      "state": "TX"
+    },
+    "colors": [
+      "maroon",
+      "sky blue"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Marjorie Spinka V",
+    "age": 47,
+    "gender": "f",
+    "joiningDt": "2021-06-21",
+    "address": {
+      "street": "10667 Ralph Drives",
+      "city": "Wizafield",
+      "state": "MI"
+    },
+    "colors": [
+      "green",
+      "lime",
+      "cyan"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Jeffrey Tromp DVM",
+    "age": 37,
+    "gender": "m",
+    "joiningDt": "2022-03-27",
+    "address": {
+      "street": "293 Reanna Lane",
+      "city": "Huelsfort",
+      "state": "MD"
+    },
+    "colors": [
+      "lime",
+      "pink"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Harvey Nienow",
+    "age": 48,
+    "gender": "f",
+    "joiningDt": "2022-06-21",
+    "address": {
+      "street": "271 Vicky Cape",
+      "city": "Lake Bartholomeside",
+      "state": "NM"
+    },
+    "colors": [
+      "lavender",
+      "pink"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Patricia Witting",
+    "age": 32,
+    "gender": "m",
+    "joiningDt": "2022-01-02",
+    "address": {
+      "street": "3406 Buckridge Points",
+      "city": "East Brandynberg",
+      "state": "IN"
+    },
+    "colors": [
+      "magenta",
+      "magenta"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Sidney Emard",
+    "age": 38,
+    "gender": "m",
+    "joiningDt": "2023-01-01",
+    "address": {
+      "street": "64405 Schmidt Parkways",
+      "city": "Kossstad",
+      "state": "LA"
+    },
+    "colors": [
+      "tan",
+      "grey",
+      "violet"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Helen Beatty-Walsh II",
+    "age": 49,
+    "gender": "m",
+    "joiningDt": "2022-07-17",
+    "address": {
+      "street": "893 Bergstrom Turnpike",
+      "city": "Charleston",
+      "state": "GA"
+    },
+    "colors": [
+      "orchid",
+      "plum",
+      "blue"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Dr. Kevin Friesen",
+    "age": 28,
+    "gender": "f",
+    "joiningDt": "2021-05-07",
+    "address": {
+      "street": "63462 Pinkie Shores",
+      "city": "New Jacklyn",
+      "state": "SC"
+    },
+    "colors": [
+      "violet",
+      "red",
+      "black"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Laurie Predovic",
+    "age": 43,
+    "gender": "m",
+    "joiningDt": "2021-10-11",
+    "address": {
+      "street": "5765 S 10th Street",
+      "city": "Lake Kamryn",
+      "state": "MT"
+    },
+    "colors": [
+      "silver",
+      "salmon"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Miss Cindy Metz",
+    "age": 50,
+    "gender": "m",
+    "joiningDt": "2022-02-02",
+    "address": {
+      "street": "1239 N Railroad Street",
+      "city": "Brockview",
+      "state": "OR"
+    },
+    "colors": [
+      "black",
+      "grey",
+      "violet"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Della Koelpin",
+    "age": 43,
+    "gender": "f",
+    "joiningDt": "2023-03-14",
+    "address": {
+      "street": "5380 Kozey Wall",
+      "city": "Lake Elsinore",
+      "state": "IA"
+    },
+    "colors": [
+      "plum",
+      "tan"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Lynn Harber-Gleichner",
+    "age": 29,
+    "gender": "m",
+    "joiningDt": "2023-06-17",
+    "address": {
+      "street": "54682 Kaylah Radial",
+      "city": "Pfannerstillton",
+      "state": "MO"
+    },
+    "colors": [
+      "red",
+      "mint green"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Tricia Pfeffer",
+    "age": 43,
+    "gender": "f",
+    "joiningDt": "2023-05-13",
+    "address": {
+      "street": "6558 Gleason Camp",
+      "city": "Port Bridgette",
+      "state": "UT"
+    },
+    "colors": [
+      "salmon",
+      "salmon"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Pat Shanahan",
+    "age": 46,
+    "gender": "f",
+    "joiningDt": "2022-03-06",
+    "address": {
+      "street": "826 Cow Lane",
+      "city": "Somerville",
+      "state": "HI"
+    },
+    "colors": [
+      "orchid",
+      "sky blue"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Dr. Danny Johnston",
+    "age": 31,
+    "gender": "f",
+    "joiningDt": "2022-05-05",
+    "address": {
+      "street": "941 Wilderman Unions",
+      "city": "Welchstead",
+      "state": "AL"
+    },
+    "colors": [
+      "orchid",
+      "cyan"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Stephanie McDermott",
+    "age": 49,
+    "gender": "m",
+    "joiningDt": "2022-05-15",
+    "address": {
+      "street": "639 Serenity Highway",
+      "city": "Chesterfield",
+      "state": "MD"
+    },
+    "colors": [
+      "green",
+      "lavender",
+      "olive"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Timothy Rutherford",
+    "age": 31,
+    "gender": "f",
+    "joiningDt": "2022-11-04",
+    "address": {
+      "street": "1025 Jaquan Ridges",
+      "city": "Bartport",
+      "state": "ND"
+    },
+    "colors": [
+      "plum",
+      "mint green"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Josefina Morissette",
+    "age": 32,
+    "gender": "m",
+    "joiningDt": "2023-05-08",
+    "address": {
+      "street": "29638 Marianne Shoals",
+      "city": "West Fiona",
+      "state": "MD"
+    },
+    "colors": [
+      "plum",
+      "blue"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Myron O'Conner",
+    "age": 31,
+    "gender": "m",
+    "joiningDt": "2021-02-26",
+    "address": {
+      "street": "889 8th Avenue",
+      "city": "Larissaland",
+      "state": "NC"
+    },
+    "colors": [
+      "olive",
+      "olive"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Johnathan Zulauf",
+    "age": 50,
+    "gender": "f",
+    "joiningDt": "2023-07-20",
+    "address": {
+      "street": "779 The Woodlands",
+      "city": "South Amber"
+    },
+    "colors": [
+      "salmon",
+      "black",
+      "lavender"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Doreen Schmitt",
+    "age": 39,
+    "gender": "f",
+    "joiningDt": "2023-04-20",
+    "address": {
+      "street": "487 Wilford Motorway",
+      "city": "Madisynstead",
+      "state": "LA"
+    },
+    "colors": [
+      "orchid",
+      "blue",
+      "gold"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Shaun Predovic",
+    "age": 47,
+    "gender": "m",
+    "joiningDt": "2023-06-19",
+    "address": {
+      "street": "25975 Keven Club",
+      "city": "Christopheshire",
+      "state": "ID"
+    },
+    "colors": [
+      "teal",
+      "yellow",
+      "plum"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Scott Johns",
+    "age": 47,
+    "gender": "f",
+    "joiningDt": "2022-03-12",
+    "address": {
+      "street": "20762 Moore Center",
+      "city": "Newport News",
+      "state": "MI"
+    },
+    "colors": [
+      "gold",
+      "turquoise"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Marion Hoppe",
+    "age": 23,
+    "gender": "f",
+    "joiningDt": "2022-06-30",
+    "address": {
+      "street": "5539 Windsor Avenue",
+      "city": "Giuseppeboro",
+      "state": "LA"
+    },
+    "colors": [
+      "indigo",
+      "azure"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Mrs. Carol Kunde",
+    "age": 24,
+    "gender": "m",
+    "joiningDt": "2023-02-27",
+    "address": {
+      "street": "70078 Naomi Fields",
+      "city": "Edythcester",
+      "state": "MD"
+    },
+    "colors": [
+      "maroon",
+      "pink",
+      "ivory"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Ms. Leticia Spencer",
+    "age": 23,
+    "gender": "m",
+    "joiningDt": "2022-06-04",
+    "address": {
+      "street": "970 Lindsay Way",
+      "city": "Lake Jacky",
+      "state": "MS"
+    },
+    "colors": [
+      "maroon",
+      "red"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Robert Haley-Volkman",
+    "age": 39,
+    "gender": "m",
+    "joiningDt": "2021-04-21",
+    "address": {
+      "street": "86796 Keara Center",
+      "city": "Olathe",
+      "state": "OR"
+    },
+    "colors": [
+      "yellow",
+      "olive"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Nadine Marvin",
+    "age": 36,
+    "gender": "f",
+    "joiningDt": "2023-12-21",
+    "address": {
+      "street": "1466 Manor Way",
+      "city": "Jadeboro",
+      "state": "AR"
+    },
+    "colors": [
+      "indigo",
+      "gold",
+      "salmon"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Lisa Schinner",
+    "age": 46,
+    "gender": "f",
+    "joiningDt": "2022-05-24",
+    "address": {
+      "street": "172 Deondre Springs",
+      "city": "Fritschton",
+      "state": "MO"
+    },
+    "colors": [
+      "pink",
+      "mint green",
+      "yellow"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Jimmy Gleason",
+    "age": 33,
+    "gender": "m",
+    "joiningDt": "2022-10-17",
+    "address": {
+      "street": "75720 Iva Walk",
+      "city": "New Bo",
+      "state": "MS"
+    },
+    "colors": [
+      "plum",
+      "indigo",
+      "indigo"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Dale Kuhic",
+    "age": 30,
+    "gender": "m",
+    "joiningDt": "2022-03-31",
+    "address": {
+      "street": "9795 11th Street",
+      "city": "West Aidanworth",
+      "state": "MT"
+    },
+    "colors": [
+      "purple",
+      "azure"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Guadalupe Okuneva",
+    "age": 47,
+    "gender": "f",
+    "joiningDt": "2022-08-26",
+    "address": {
+      "street": "3071 Jerrod Meadows",
+      "city": "Harlingen",
+      "state": "AL"
+    },
+    "colors": [
+      "green",
+      "cyan"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Freda Braun",
+    "age": 23,
+    "gender": "m",
+    "joiningDt": "2023-04-20",
+    "address": {
+      "street": "475 Edna Ridges",
+      "city": "New Joanneville",
+      "state": "CO"
+    },
+    "colors": [
+      "pink",
+      "tan"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Alison Cremin",
+    "age": 28,
+    "gender": "f",
+    "joiningDt": "2021-07-12",
+    "address": {
+      "street": "119 W Washington Street",
+      "city": "Erie",
+      "state": "MI"
+    },
+    "colors": [
+      "orange",
+      "maroon"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Joy Nicolas V",
+    "age": 41,
+    "gender": "f",
+    "joiningDt": "2023-04-06",
+    "address": {
+      "street": "980 Walker Trafficway",
+      "city": "Sengerburgh",
+      "state": "MT"
+    },
+    "colors": [
+      "sky blue",
+      "yellow"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Bobbie Wintheiser-Shields",
+    "age": 50,
+    "gender": "m",
+    "joiningDt": "2023-07-24",
+    "address": {
+      "street": "6496 Cherry Tree Close",
+      "city": "North Brionnahaven",
+      "state": "NY"
+    },
+    "colors": [
+      "green",
+      "salmon"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Patty Bartell",
+    "age": 41,
+    "gender": "f",
+    "joiningDt": "2023-01-22",
+    "address": {
+      "street": "827 Juniper Close",
+      "city": "Jarrettborough",
+      "state": "WA"
+    },
+    "colors": [
+      "teal",
+      "mint green",
+      "ivory"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Antoinette Bayer",
+    "age": 50,
+    "gender": "m",
+    "joiningDt": "2022-12-19",
+    "address": {
+      "street": "584 Windmill Close",
+      "city": "Millcreek",
+      "state": "CT"
+    },
+    "colors": [
+      "plum",
+      "azure"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Corey Metz",
+    "age": 23,
+    "gender": "f",
+    "joiningDt": "2023-01-10",
+    "address": {
+      "street": "139 N Pine Street",
+      "city": "Lindafurt",
+      "state": "OR"
+    },
+    "colors": [
+      "black",
+      "orchid"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Melinda Botsford",
+    "age": 23,
+    "gender": "m",
+    "joiningDt": "2023-09-22",
+    "address": {
+      "street": "9422 Dibbert Keys",
+      "city": "Delray Beach",
+      "state": "MO"
+    },
+    "colors": [
+      "violet",
+      "plum"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Alonzo Bruen Sr.",
+    "age": 22,
+    "gender": "f",
+    "joiningDt": "2022-10-13",
+    "address": {
+      "street": "49801 Willow Road",
+      "city": "Port Justina",
+      "state": "TX"
+    },
+    "colors": [
+      "lime",
+      "orange",
+      "silver"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Marian Hilll",
+    "age": 26,
+    "gender": "f",
+    "joiningDt": "2021-12-12",
+    "address": {
+      "street": "54275 Laurel Close",
+      "city": "Kaiaborough",
+      "state": "KS"
+    },
+    "colors": [
+      "tan",
+      "olive"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Alfredo Block",
+    "age": 28,
+    "gender": "m",
+    "joiningDt": "2022-04-30",
+    "address": {
+      "street": "702 Alba Drives",
+      "city": "New Reynold",
+      "state": "NJ"
+    },
+    "colors": [
+      "turquoise",
+      "plum"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Gerald Pagac",
+    "age": 33,
+    "gender": "m",
+    "joiningDt": "2021-02-18",
+    "address": {
+      "street": "3798 Christiansen Fords",
+      "city": "North Ryleighbury",
+      "state": "WA"
+    },
+    "colors": [
+      "orange",
+      "ivory"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Virgil Bashirian",
+    "age": 44,
+    "gender": "m",
+    "joiningDt": "2022-11-25",
+    "address": {
+      "street": "1389 James Street",
+      "city": "McCulloughmouth",
+      "state": "AK"
+    },
+    "colors": [
+      "salmon",
+      "gold"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Otis Von",
+    "age": 46,
+    "gender": "f",
+    "joiningDt": "2021-08-04",
+    "address": {
+      "street": "527 Braun Crossroad",
+      "city": "Anderson",
+      "state": "WV"
+    },
+    "colors": [
+      "ivory",
+      "black",
+      "violet"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Lois Gutkowski",
+    "age": 47,
+    "gender": "f",
+    "joiningDt": "2021-07-08",
+    "address": {
+      "street": "68802 Yvette Plaza",
+      "city": "Lake Edyth",
+      "state": "OK"
+    },
+    "colors": [
+      "tan",
+      "red",
+      "green"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Felix Mann",
+    "age": 46,
+    "gender": "f",
+    "joiningDt": "2022-12-24",
+    "address": {
+      "street": "2335 Dietrich Stream",
+      "city": "Rosendofield",
+      "state": "WY"
+    },
+    "colors": [
+      "maroon",
+      "lavender",
+      "maroon"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Dr. Pat Gleichner",
+    "age": 39,
+    "gender": "m",
+    "joiningDt": "2021-03-08",
+    "address": {
+      "street": "4285 Mante Pike",
+      "city": "Boydstad",
+      "state": "NJ"
+    },
+    "colors": [
+      "mint green",
+      "mint green",
+      "gold"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Dr. Darin Rice III",
+    "age": 41,
+    "gender": "m",
+    "joiningDt": "2021-05-02",
+    "address": {
+      "street": "808 Elm Close",
+      "city": "Satterfieldburgh",
+      "state": "UT"
+    },
+    "colors": [
+      "white",
+      "cyan",
+      "blue"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Emmett Auer",
+    "age": 25,
+    "gender": "f",
+    "joiningDt": "2022-02-01",
+    "address": {
+      "street": "524 Lincoln Highway",
+      "city": "Juanitastad",
+      "state": "MA"
+    },
+    "colors": [
+      "grey",
+      "grey",
+      "white"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Malcolm Abshire",
+    "age": 42,
+    "gender": "m",
+    "joiningDt": "2023-05-05",
+    "address": {
+      "street": "7507 Beahan Loaf",
+      "city": "South Dayana",
+      "state": "NY"
+    },
+    "colors": [
+      "teal",
+      "white",
+      "tan"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Thelma Johnston",
+    "age": 29,
+    "gender": "m",
+    "joiningDt": "2022-01-14",
+    "address": {
+      "street": "2458 Russel Ramp",
+      "city": "Coachella",
+      "state": "NE"
+    },
+    "colors": [
+      "olive",
+      "red",
+      "sky blue"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Shannon Armstrong",
+    "age": 28,
+    "gender": "m",
+    "joiningDt": "2023-02-03",
+    "address": {
+      "street": "22111 Heller Walks",
+      "city": "Metzchester",
+      "state": "NC"
+    },
+    "colors": [
+      "orange",
+      "olive",
+      "turquoise"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Elena Wehner MD",
+    "age": 48,
+    "gender": "f",
+    "joiningDt": "2023-04-06",
+    "address": {
+      "street": "9415 Station Road",
+      "city": "Franklin",
+      "state": "WY"
+    },
+    "colors": [
+      "azure",
+      "black",
+      "silver"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Delbert Morar",
+    "age": 43,
+    "gender": "m",
+    "joiningDt": "2021-06-04",
+    "address": {
+      "street": "4912 Kristoffer Branch",
+      "city": "East Heather",
+      "state": "WY"
+    },
+    "colors": [
+      "black",
+      "lavender",
+      "tan"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Rosie Gottlieb PhD",
+    "age": 28,
+    "gender": "f",
+    "joiningDt": "2022-04-25",
+    "address": {
+      "street": "8449 Bailey Mall",
+      "city": "East Vaughn",
+      "state": "IA"
+    },
+    "colors": [
+      "orange",
+      "maroon",
+      "magenta"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Lauren Ondricka",
+    "age": 44,
+    "gender": "m",
+    "joiningDt": "2022-06-16",
+    "address": {
+      "street": "467 Crona Greens",
+      "city": "Brekkeboro",
+      "state": "UT"
+    },
+    "colors": [
+      "yellow",
+      "silver",
+      "magenta"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Woodrow Grimes",
+    "age": 48,
+    "gender": "f",
+    "joiningDt": "2021-02-05",
+    "address": {
+      "street": "2893 Laburnum Grove",
+      "city": "Enterprise",
+      "state": "WI"
+    },
+    "colors": [
+      "lavender",
+      "silver",
+      "maroon"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "April Jones",
+    "age": 32,
+    "gender": "m",
+    "joiningDt": "2021-06-15",
+    "address": {
+      "street": "75812 Wilford Hills",
+      "city": "Rueckershire",
+      "state": "PA"
+    },
+    "colors": [
+      "maroon",
+      "lime",
+      "cyan"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Kristi Bruen",
+    "age": 44,
+    "gender": "m",
+    "joiningDt": "2023-10-26",
+    "address": {
+      "street": "6730 McClure Pass",
+      "city": "Spring Hill",
+      "state": "MO"
+    },
+    "colors": [
+      "maroon",
+      "lime",
+      "lime"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Dr. Victor Bartoletti",
+    "age": 37,
+    "gender": "f",
+    "joiningDt": "2021-05-12",
+    "address": {
+      "street": "8849 Terry Flat",
+      "city": "Jadachester"
+    },
+    "colors": [
+      "purple",
+      "gold",
+      "black"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Tomas Lockman",
+    "age": 27,
+    "gender": "m",
+    "joiningDt": "2021-04-18",
+    "address": {
+      "street": "79000 Walsh Bridge",
+      "city": "Justynmouth",
+      "state": "MN"
+    },
+    "colors": [
+      "cyan",
+      "orchid"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Darryl Zieme MD",
+    "age": 37,
+    "gender": "m",
+    "joiningDt": "2022-12-26",
+    "address": {
+      "street": "979 Doyle Oval",
+      "city": "North Hollistown",
+      "state": "MT"
+    },
+    "colors": [
+      "yellow",
+      "white"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Timothy Fritsch",
+    "age": 34,
+    "gender": "f",
+    "joiningDt": "2021-12-28",
+    "address": {
+      "street": "28143 12th Street",
+      "city": "East Andreanne",
+      "state": "NV"
+    },
+    "colors": [
+      "silver",
+      "orange",
+      "fuchsia"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Bobbie Hauck",
+    "age": 28,
+    "gender": "f",
+    "joiningDt": "2021-11-03",
+    "address": {
+      "street": "71162 Mount Pleasant",
+      "city": "Port Irwinborough",
+      "state": "KS"
+    },
+    "colors": [
+      "tan",
+      "olive",
+      "cyan"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Tanya Wuckert",
+    "age": 25,
+    "gender": "f",
+    "joiningDt": "2022-01-14",
+    "address": {
+      "street": "25669 Angel Plains",
+      "city": "West Pattie",
+      "state": "AZ"
+    },
+    "colors": [
+      "purple",
+      "lime"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Krista Hammes",
+    "age": 42,
+    "gender": "f",
+    "joiningDt": "2022-07-27",
+    "address": {
+      "street": "473 S 1st Street",
+      "city": "East Sibyl"
+    },
+    "colors": [
+      "magenta",
+      "olive",
+      "silver"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Nina Roberts",
+    "age": 23,
+    "gender": "m",
+    "joiningDt": "2021-11-05",
+    "address": {
+      "street": "200 Jace Port",
+      "city": "Ellsworthstad",
+      "state": "AR"
+    },
+    "colors": [
+      "yellow",
+      "pink"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Lawrence Beer",
+    "age": 44,
+    "gender": "f",
+    "joiningDt": "2022-05-28",
+    "address": {
+      "street": "2218 Dayne Dale",
+      "city": "North Rashad",
+      "state": "MT"
+    },
+    "colors": [
+      "blue",
+      "tan",
+      "olive"
+    ],
+    "isActive": false
+  },
+  {
+    "name": "Leo Toy-Morissette",
+    "age": 23,
+    "gender": "f",
+    "joiningDt": "2021-01-15",
+    "address": {
+      "street": "45250 Roob Prairie",
+      "city": "Rosamondton",
+      "state": "NM"
+    },
+    "colors": [
+      "violet",
+      "teal",
+      "salmon"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Daniel Heaney",
+    "age": 25,
+    "gender": "m",
+    "joiningDt": "2022-07-07",
+    "address": {
+      "street": "9859 Kestrel Close",
+      "city": "Lake Demetrius"
+    },
+    "colors": [
+      "tan",
+      "black"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Justin Nader Jr.",
+    "age": 24,
+    "gender": "m",
+    "joiningDt": "2022-09-18",
+    "address": {
+      "street": "212 S 5th Street",
+      "city": "Wehnerside"
+    },
+    "colors": [
+      "purple",
+      "ivory",
+      "black"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Arlene Corkery",
+    "age": 43,
+    "gender": "f",
+    "joiningDt": "2021-03-29",
+    "address": {
+      "street": "734 Sipes Fields",
+      "city": "Inesborough",
+      "state": "AK"
+    },
+    "colors": [
+      "ivory",
+      "olive"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Michelle Wolff MD",
+    "age": 38,
+    "gender": "f",
+    "joiningDt": "2021-03-23",
+    "address": {
+      "street": "21004 Sammy Mills",
+      "city": "West Arlene",
+      "state": "MT"
+    },
+    "colors": [
+      "cyan",
+      "olive",
+      "azure"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Dr. Isabel Jakubowski",
+    "age": 34,
+    "gender": "f",
+    "joiningDt": "2023-10-08",
+    "address": {
+      "street": "22996 Gerhold Ford",
+      "city": "East Daija",
+      "state": "NH"
+    },
+    "colors": [
+      "teal",
+      "pink"
+    ],
+    "isActive": true
+  },
+  {
+    "name": "Linda Gibson",
+    "age": 42,
+    "gender": "m",
+    "joiningDt": "2022-11-24",
+    "address": {
+      "street": "819 Oakfield Road",
+      "city": "South Marquisborough",
+      "state": "OH"
+    },
+    "colors": [
+      "teal",
+      "tan",
+      "sky blue"
+    ],
+    "isActive": true
+  }
+]

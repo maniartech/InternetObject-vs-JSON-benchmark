@@ -1,0 +1,892 @@
+[100]:
+  - id: 07aea874-8973-47f4-9033-3abd12f070af
+    customer: Marjorie Metz
+    status: pending
+    placedAt: 2025-12-29
+    items[2]{sku,name,qty,price}:
+      EZ3HZ7WK,Rustic Concrete Fish,2,447.15
+      1GKDPX14,Fresh Metal Cheese,6,75.43
+    total: 1346.88
+  - id: ebb91fed-357f-427c-ac97-a424a432d29d
+    customer: Ronald Wunsch
+    status: delivered
+    placedAt: 2025-07-08
+    items[4]{sku,name,qty,price}:
+      8W6CJDIG,Frozen Plastic Bike,1,409.89
+      RAUQWA68,Sleek Silk Bike,4,482.06
+      P2LZXMW7,Tasty Concrete Towels,3,162.58
+      NMNLGXOF,Recycled Wooden Ball,3,78.28
+    total: 3060.71
+  - id: d9983176-7143-4eba-a325-b88b13978078
+    customer: Dennis Mayert
+    status: paid
+    placedAt: 2024-09-02
+    items[4]{sku,name,qty,price}:
+      JX464FYQ,Generic Silk Car,6,272.98
+      COZ5AVVO,Unbranded Bronze Chair,2,53.32
+      SZ308ZNU,Fantastic Bamboo Bacon,6,242.08
+      27709T16,Bespoke Steel Soap,2,399.15
+    total: 3995.3
+  - id: abec0dbb-b4d9-42a1-a2a2-59d610b7caa6
+    customer: Dr. Marion Kuhn
+    status: refunded
+    placedAt: 2024-06-22
+    items[4]{sku,name,qty,price}:
+      2YA7OQUB,Handmade Silk Fish,5,299.52
+      Z5VC1BIE,Incredible Rubber Pizza,3,283.89
+      5I7X0WD8,Modern Gold Tuna,1,187.87
+      BM05IVTD,Soft Concrete Pizza,5,2.23
+    total: 2548.29
+  - id: 6887b7d4-7067-4626-b5ed-9390e4d736fc
+    customer: Dennis Schimmel MD
+    status: refunded
+    placedAt: 2025-02-15
+    items[1]{sku,name,qty,price}:
+      0NPYLDB5,Small Cotton Ball,2,220.62
+    total: 441.24
+  - id: 335dd90c-990e-4f14-86cf-140647b8009a
+    customer: Lucas Schmeler
+    status: refunded
+    placedAt: 2025-03-12
+    items[1]{sku,name,qty,price}:
+      JL4IBWXY,Modern Rubber Towels,4,20.12
+    total: 80.48
+  - id: 4c29f8ee-1297-4003-ab7c-cf56b5af05fc
+    customer: Norman Armstrong
+    status: paid
+    placedAt: 2025-03-16
+    items[2]{sku,name,qty,price}:
+      23ZVZ0NQ,Rustic Gold Car,4,322.94
+      YRHTN0C9,Handcrafted Gold Bike,3,185.24
+    total: 1847.48
+  - id: ad0a8f91-92ac-4557-9647-46c5c84d9b74
+    customer: Miss Sadie Conroy
+    status: refunded
+    placedAt: 2024-09-20
+    items[4]{sku,name,qty,price}:
+      WT68EY2E,Small Metal Towels,4,465.94
+      71RKIQME,Frozen Bamboo Gloves,3,174.39
+      KQTOUFXK,Fantastic Wooden Keyboard,1,69.04
+      PCEQWPTZ,Fresh Granite Salad,1,481.44
+    total: 2937.41
+  - id: f02a1e98-6aa8-4e47-8516-646371a61a12
+    customer: Elizabeth Rutherford
+    status: refunded
+    placedAt: 2024-12-18
+    items[5]{sku,name,qty,price}:
+      80IU7D43,Fresh Aluminum Ball,4,310.55
+      R4T7OZSF,Handcrafted Metal Keyboard,6,445.79
+      JV550EDL,Handcrafted Silk Car,6,177.01
+      7TGQEREM,Intelligent Cotton Table,6,461.8
+      IQE5CCLV,Unbranded Ceramic Sausages,1,97.9
+    total: 7847.7
+  - id: 9caa89a1-6cef-4571-bee2-315f0ee4f988
+    customer: Melvin Littel
+    status: shipped
+    placedAt: 2024-09-11
+    items[2]{sku,name,qty,price}:
+      VCJJT9W4,Generic Marble Gloves,3,29.27
+      JESMRGJC,Small Steel Sausages,2,161.84
+    total: 411.49
+  - id: bb45b03e-9614-44fe-8882-6b1289d4f850
+    customer: Roy Nitzsche
+    status: paid
+    placedAt: 2025-10-09
+    items[3]{sku,name,qty,price}:
+      OABSSDJG,Rustic Metal Mouse,6,125.71
+      U27444GR,Recycled Rubber Mouse,4,388.71
+      OKPNEQJI,Incredible Marble Towels,5,331.25
+    total: 3965.35
+  - id: ba5a7f27-69e4-418b-a9a1-749f5414dd26
+    customer: Walter Macejkovic
+    status: shipped
+    placedAt: 2025-10-15
+    items[1]{sku,name,qty,price}:
+      FHZWGA37,Bespoke Gold Ball,5,30.04
+    total: 150.2
+  - id: d37c7d5d-56b5-4812-bcf7-28feaf90e306
+    customer: Florence King
+    status: delivered
+    placedAt: 2024-06-04
+    items[2]{sku,name,qty,price}:
+      91BT4VDY,Refined Plastic Gloves,5,22.68
+      SYHKSAPT,Frozen Metal Shirt,2,419.59
+    total: 952.58
+  - id: 004927b6-17af-4ecc-8a44-95791313eb6e
+    customer: Raul Harvey
+    status: paid
+    placedAt: 2024-04-04
+    items[2]{sku,name,qty,price}:
+      HQWLCZ5V,Handcrafted Wooden Chair,3,33.52
+      W4L7YOG1,Elegant Metal Hat,5,317.98
+    total: 1690.46
+  - id: ed570c88-f8f1-4d1d-9912-7c7dc5f88a95
+    customer: Gail Barton
+    status: shipped
+    placedAt: 2025-07-13
+    items[3]{sku,name,qty,price}:
+      XMPDZSJE,Intelligent Granite Towels,6,407.96
+      WXW1KL3N,Licensed Plastic Hat,4,376.12
+      BP1IQP1B,Bespoke Steel Sausages,5,490.42
+    total: 6404.34
+  - id: b42ef120-b93a-491d-996e-d469e6646409
+    customer: Ms. Lila Wisozk III
+    status: paid
+    placedAt: 2024-08-06
+    items[2]{sku,name,qty,price}:
+      PUZMO06I,Tasty Rubber Keyboard,1,285.04
+      3J6X8JVM,Practical Rubber Table,4,411.1
+    total: 1929.44
+  - id: 652a7ca1-eb02-46bf-bbfc-049f3b7769ed
+    customer: Antonio Krajcik
+    status: pending
+    placedAt: 2025-12-30
+    items[2]{sku,name,qty,price}:
+      9NRDK10H,Ergonomic Metal Gloves,4,147.59
+      Y3R22RU2,Refined Ceramic Fish,2,363.24
+    total: 1316.84
+  - id: 6be9770f-6897-4f3e-b0b3-34c9417794c7
+    customer: Joy Ledner
+    status: paid
+    placedAt: 2024-07-16
+    items[3]{sku,name,qty,price}:
+      A7UNQYO9,Luxurious Bamboo Soap,4,363.2
+      LSYBWEMV,Electronic Marble Salad,2,84.45
+      Q8G2FNMT,Incredible Granite Gloves,2,40.25
+    total: 1702.2
+  - id: aae78209-dfc6-4b82-a4b1-982105f191bc
+    customer: Dr. Kim Jacobson
+    status: pending
+    placedAt: 2025-12-11
+    items[5]{sku,name,qty,price}:
+      5PJQ724G,Unbranded Concrete Pants,1,232.3
+      IIP97EXL,Small Ceramic Pizza,1,475.55
+      EYPXIQ00,Frozen Aluminum Tuna,4,260.53
+      7QHHAUE4,Ergonomic Ceramic Bike,2,206.89
+      B0Q3AHJT,Handcrafted Aluminum Soap,3,112.39
+    total: 2500.92
+  - id: d755ad3b-c677-45e2-9ce0-1a3aa1a0cf7d
+    customer: Wesley Lynch
+    status: paid
+    placedAt: 2024-02-13
+    items[5]{sku,name,qty,price}:
+      XZAF60I5,Fresh Ceramic Hat,2,499.44
+      FSZ4UXU1,Luxurious Steel Table,5,412.11
+      9I0G0MXJ,Oriental Bamboo Shirt,6,174.39
+      7QOKLGYO,Unbranded Bronze Ball,1,69.71
+      UMB3YYT9,Unbranded Metal Soap,6,468.91
+    total: 6988.94
+  - id: 26d374b3-1b0d-4e88-b68c-616ed12af3c8
+    customer: Alonzo Bruen Sr.
+    status: pending
+    placedAt: 2024-04-27
+    items[3]{sku,name,qty,price}:
+      13ZTN3F1,Licensed Gold Shirt,1,198.73
+      YYJHMMPK,Fantastic Steel Pants,2,19.54
+      AO12XMWN,Unbranded Granite Cheese,2,187.7
+    total: 613.21
+  - id: d9c0b123-87c5-4853-973c-ee62411d5ea5
+    customer: Joel Luettgen
+    status: delivered
+    placedAt: 2024-10-06
+    items[3]{sku,name,qty,price}:
+      G5TI72GF,Fresh Rubber Keyboard,6,204.5
+      FJBACNKD,Fresh Bronze Chicken,2,480.09
+      6VMCZP17,Bespoke Aluminum Chair,3,290.55
+    total: 3058.83
+  - id: 9cd132fa-6b4b-4090-a47e-229875788256
+    customer: Ms. Daisy Marks
+    status: refunded
+    placedAt: 2025-06-13
+    items[4]{sku,name,qty,price}:
+      6QL2DSXT,Handcrafted Metal Mouse,4,11.44
+      MY312SMM,Handmade Steel Chips,1,452.74
+      WPJ8PC36,Unbranded Aluminum Towels,4,366.76
+      0WCUG7RM,Sleek Plastic Cheese,1,20.12
+    total: 1985.66
+  - id: 34d59b06-bf21-4fcc-a0ef-4bc3df3cbf05
+    customer: Brett Schiller
+    status: paid
+    placedAt: 2025-12-05
+    items[2]{sku,name,qty,price}:
+      5KRT6N2N,Incredible Granite Car,5,272.25
+      D8VIHKMH,Elegant Marble Pants,6,370.03
+    total: 3581.43
+  - id: 08175ead-fd38-4b91-bb60-75639da201b8
+    customer: Mrs. Tanya Predovic
+    status: shipped
+    placedAt: 2024-05-06
+    items[1]{sku,name,qty,price}:
+      OHAEZEEI,Licensed Gold Salad,2,302.71
+    total: 605.42
+  - id: 539bdd00-c49f-4729-bbcd-5f64deeae6cf
+    customer: Geraldine Hauck
+    status: shipped
+    placedAt: 2025-12-20
+    items[3]{sku,name,qty,price}:
+      KUBUPX6J,Bespoke Wooden Pizza,3,97.54
+      9ICKTJHW,Oriental Bronze Car,2,72.53
+      66CCYOLN,Oriental Plastic Soap,3,8.94
+    total: 464.5
+  - id: c925a866-66e7-47e9-9085-2f43db4ed327
+    customer: Wilbert Jakubowski
+    status: refunded
+    placedAt: 2024-11-06
+    items[1]{sku,name,qty,price}:
+      91K095FZ,Tasty Ceramic Pants,4,209.23
+    total: 836.92
+  - id: 4f6bcfb5-1c6a-45c2-b1c7-6589ac51599d
+    customer: Ann Terry
+    status: shipped
+    placedAt: 2025-07-30
+    items[4]{sku,name,qty,price}:
+      RJ5CO39V,Electronic Marble Pants,4,279.88
+      RWHQNCRF,Licensed Gold Chair,5,454.17
+      BZEYAZUZ,Sleek Concrete Pants,6,137.66
+      19OFC4S9,Practical Marble Soap,1,117.67
+    total: 4334
+  - id: e08877ae-0862-4a14-a6ff-3debe8393060
+    customer: Darryl Zieme MD
+    status: shipped
+    placedAt: 2025-07-21
+    items[3]{sku,name,qty,price}:
+      XWYO620J,Small Steel Hat,6,331.27
+      V9GGOOY0,Awesome Rubber Hat,4,142.66
+      4283K56O,Soft Aluminum Ball,1,259.36
+    total: 2817.62
+  - id: 4b0a5212-9aaf-420a-a54c-01e3f6205d86
+    customer: Abraham Hessel
+    status: paid
+    placedAt: 2025-10-18
+    items[4]{sku,name,qty,price}:
+      7KQJ5745,Small Bronze Hat,3,377.74
+      0A62KVX5,Fresh Plastic Gloves,1,165.97
+      2WTH346Q,Elegant Bronze Salad,2,394.12
+      H3SGCA83,Sleek Cotton Cheese,2,21.77
+    total: 2130.97
+  - id: 8e940bc0-7f8e-4db5-b279-3805cb7d09e9
+    customer: Lloyd Bergstrom
+    status: pending
+    placedAt: 2024-06-26
+    items[4]{sku,name,qty,price}:
+      76V3IFBP,Recycled Ceramic Keyboard,4,40.69
+      ZLEU7217,Incredible Plastic Fish,2,273.12
+      22QLQH2L,Frozen Steel Pants,1,414.81
+      HDE674T1,Fresh Bronze Fish,1,407.23
+    total: 1531.04
+  - id: e3f521d8-29a4-400c-b324-eaafec8eae11
+    customer: Brad Gusikowski
+    status: shipped
+    placedAt: 2025-05-25
+    items[1]{sku,name,qty,price}:
+      T10KXTKX,Tasty Cotton Computer,4,126.59
+    total: 506.36
+  - id: 3fea6443-3395-4606-ac06-6e6eddc1ad3f
+    customer: Bobby Pfannerstill
+    status: delivered
+    placedAt: 2024-07-24
+    items[4]{sku,name,qty,price}:
+      EHJT8KFB,Awesome Concrete Ball,6,73.85
+      2QH29T3I,Awesome Cotton Car,1,52.24
+      32F4VJ9C,Electronic Granite Computer,5,178.55
+      ZYPK62C7,Sleek Marble Shirt,1,101.82
+    total: 1489.91
+  - id: 0cf96bc3-ed5c-4428-b5c1-664ef4487ed2
+    customer: Natasha Fadel
+    status: paid
+    placedAt: 2025-05-18
+    items[3]{sku,name,qty,price}:
+      M9KPSME0,Bespoke Rubber Keyboard,6,370.28
+      WTTJ3V40,Small Steel Cheese,2,176.99
+      DQ61P0XT,Oriental Rubber Shoes,5,373.63
+    total: 4443.81
+  - id: 519cf126-aa1a-44dd-9c17-4c493aefa1c3
+    customer: Michelle Prohaska
+    status: delivered
+    placedAt: 2024-02-20
+    items[5]{sku,name,qty,price}:
+      LEUA7KWS,Handmade Steel Bike,6,19.35
+      L5XRXUEK,Incredible Ceramic Keyboard,5,81.72
+      7WUD3A9L,Incredible Aluminum Pizza,3,86.72
+      H38R7V5G,Tasty Bronze Towels,4,265.21
+      4SYLN0RO,Refined Metal Salad,4,229.09
+    total: 2762.06
+  - id: d9b59f47-d94f-4e7c-90d3-04b53a616625
+    customer: Felix Nitzsche
+    status: refunded
+    placedAt: 2025-04-26
+    items[1]{sku,name,qty,price}:
+      WJLLMHOF,Licensed Wooden Shoes,2,37.49
+    total: 74.98
+  - id: a9bf61b6-8fd7-444b-9f24-37dfc579cc1d
+    customer: Ms. Felicia Witting
+    status: shipped
+    placedAt: 2025-03-12
+    items[2]{sku,name,qty,price}:
+      ZIJM9YGN,Luxurious Bamboo Pizza,6,338.3
+      J5RSH14M,Unbranded Metal Computer,4,257.49
+    total: 3059.76
+  - id: 5b480697-886c-42ae-b5ea-b9ca346fd624
+    customer: Marshall Cormier
+    status: paid
+    placedAt: 2025-09-05
+    items[2]{sku,name,qty,price}:
+      PEQPTAD8,Recycled Bamboo Car,2,306.56
+      OLKHBKL9,Recycled Cotton Bacon,1,93.15
+    total: 706.27
+  - id: 934c728e-f210-4874-bfbd-f059e7c4f10b
+    customer: Ellis Hagenes
+    status: refunded
+    placedAt: 2025-10-22
+    items[5]{sku,name,qty,price}:
+      CPU0GUJ0,Unbranded Silk Pizza,3,364.59
+      AMQL00BQ,Practical Steel Sausages,5,491.35
+      DOM0FL1D,Tasty Plastic Mouse,5,434.86
+      IR4UHZ5S,Generic Metal Hat,1,258.77
+      ODKNY0ID,Ergonomic Gold Fish,4,161.06
+    total: 6627.83
+  - id: 7d3343d8-733c-4262-a67f-26251e3cbc42
+    customer: Rosa Jerde
+    status: refunded
+    placedAt: 2025-01-06
+    items[1]{sku,name,qty,price}:
+      TDGH75WH,Generic Plastic Hat,5,207.18
+    total: 1035.9
+  - id: 5247f867-92d3-4390-bf2e-63a87e0b5a3f
+    customer: Nathaniel O'Kon
+    status: refunded
+    placedAt: 2025-03-31
+    items[4]{sku,name,qty,price}:
+      RKNGDHGF,Oriental Granite Bacon,3,286.33
+      OU0Z5BA3,Handmade Concrete Fish,2,73.49
+      ZI6OF2U9,Fantastic Plastic Mouse,5,455.54
+      0BKYUAD5,Handcrafted Gold Gloves,6,458.29
+    total: 6033.41
+  - id: 0d674631-cb04-4ed9-94bc-538f85ad1d4e
+    customer: Noel Kuhlman
+    status: pending
+    placedAt: 2024-10-01
+    items[4]{sku,name,qty,price}:
+      ND1P1G81,Soft Granite Shirt,4,59.17
+      VBDPQ5MG,Recycled Bronze Towels,5,87.18
+      0ZEI9UQP,Small Metal Fish,5,55.14
+      L3ATBEN0,Modern Bronze Chicken,5,367.15
+    total: 2784.03
+  - id: c571bbfa-4881-466c-b29f-099c03d39de2
+    customer: Erick Stokes
+    status: pending
+    placedAt: 2025-05-09
+    items[4]{sku,name,qty,price}:
+      G056LJG3,Elegant Bamboo Chair,2,214.85
+      CWT2PWAA,Fresh Granite Table,4,208.04
+      X8XGBUMJ,Fresh Plastic Pizza,1,316.03
+      VXTPEFCW,Rustic Silk Shirt,3,42.66
+    total: 1705.87
+  - id: 03deea4e-928c-4785-8c4f-e122dc3a04f5
+    customer: Ismael Kemmer I
+    status: delivered
+    placedAt: 2025-04-17
+    items[3]{sku,name,qty,price}:
+      58T2FXA8,Sleek Plastic Pants,6,453.09
+      462QZ9KF,Luxurious Plastic Mouse,2,139.49
+      TXH8QIDP,Rustic Metal Keyboard,4,372.56
+    total: 4487.76
+  - id: 5958e05d-36e7-4c08-94c9-0b7c3d8462e7
+    customer: Dr. Loren Vandervort
+    status: delivered
+    placedAt: 2024-03-30
+    items[4]{sku,name,qty,price}:
+      19KD1ZMV,Ergonomic Wooden Bacon,6,168.11
+      ZPLRJRKR,Oriental Bamboo Towels,5,475.14
+      VIJ0RGQQ,Awesome Granite Gloves,6,37.25
+      2272EJHV,Rustic Aluminum Shirt,6,404.54
+    total: 6035.1
+  - id: 012b3e5d-e492-4ded-ba99-4a9441ac8b59
+    customer: Roger Boyer-Gutmann
+    status: shipped
+    placedAt: 2025-05-14
+    items[1]{sku,name,qty,price}:
+      JGRI2171,Soft Bamboo Computer,4,77.79
+    total: 311.16
+  - id: 325dc2c1-5d97-4883-8111-fd31ffa2735e
+    customer: Susie Ledner
+    status: paid
+    placedAt: 2025-05-19
+    items[3]{sku,name,qty,price}:
+      V8CIZOHU,Rustic Plastic Keyboard,1,406.24
+      IKOB620Y,Rustic Concrete Shirt,2,458.02
+      SCYQOAG6,Sleek Ceramic Chips,4,445.2
+    total: 3103.08
+  - id: ce3e5bfb-7263-46f6-9c3f-4ae78d36aca6
+    customer: Kate Hessel-Streich
+    status: paid
+    placedAt: 2024-04-23
+    items[4]{sku,name,qty,price}:
+      T8CJSZRD,Fantastic Cotton Ball,4,430.39
+      1LW2H3PI,Sleek Granite Pants,1,302.96
+      2NV9SMCW,Bespoke Steel Cheese,5,462.44
+      LM0VX9F7,Handmade Gold Chips,6,165.05
+    total: 5327.02
+  - id: 99fb67f0-95df-4e15-b3d4-139a1ee2afbd
+    customer: Cary Greenholt Sr.
+    status: paid
+    placedAt: 2024-08-06
+    items[3]{sku,name,qty,price}:
+      PW8PCTSB,Small Granite Chicken,3,168.02
+      GSICLUR9,Soft Metal Mouse,5,329.39
+      V98YB8YH,Tasty Aluminum Keyboard,2,201.88
+    total: 2554.77
+  - id: 89bad457-7290-40e5-94cd-5d01819eb447
+    customer: Latoya Feest-Gerlach
+    status: refunded
+    placedAt: 2025-01-19
+    items[5]{sku,name,qty,price}:
+      FRK1ZJLV,Oriental Concrete Salad,4,172.9
+      YUV815KN,Electronic Gold Table,1,11.82
+      ACM3B5X1,Elegant Granite Towels,2,105.91
+      PLC9TTBR,Luxurious Steel Towels,4,196.74
+      0D85RNWE,Frozen Bronze Car,5,136.49
+    total: 2384.65
+  - id: 9d204273-5a4f-481e-a29f-457cc2df9cd3
+    customer: Micheal Streich
+    status: shipped
+    placedAt: 2024-02-29
+    items[2]{sku,name,qty,price}:
+      AFEFIRBN,Generic Granite Towels,2,176.91
+      13W8HOP1,Elegant Steel Cheese,6,485.88
+    total: 3269.1
+  - id: c7b955df-d6c8-4895-8f27-78e8f35ded10
+    customer: Sheri Kulas
+    status: paid
+    placedAt: 2024-07-09
+    items[4]{sku,name,qty,price}:
+      Y6NR1LLS,Oriental Rubber Fish,1,490.17
+      V8D3TUYK,Modern Metal Shoes,5,377.09
+      V0HMW70I,Rustic Metal Keyboard,2,131.45
+      TWKAB9R4,Tasty Steel Shirt,3,499.7
+    total: 4137.62
+  - id: c085fc21-0736-47a7-a8b6-60ccd857b550
+    customer: Herman Huels
+    status: pending
+    placedAt: 2025-01-03
+    items[5]{sku,name,qty,price}:
+      WQWJWATK,Recycled Wooden Table,1,92.93
+      IVGGOML9,Awesome Metal Shirt,2,401.67
+      E650QYG5,Refined Plastic Soap,1,163.7
+      CFSQH0Z5,Elegant Aluminum Chair,2,349.04
+      JOSCYCV4,Sleek Metal Chair,5,229.31
+    total: 2904.6
+  - id: 88181562-0913-4b2a-a167-d1ee45fad766
+    customer: Pat Sipes
+    status: pending
+    placedAt: 2025-06-02
+    items[3]{sku,name,qty,price}:
+      44E24Z2N,Handmade Rubber Tuna,6,408.08
+      EBIXM3I0,Rustic Aluminum Tuna,6,267.72
+      TWUKR5EZ,Intelligent Concrete Salad,2,145.26
+    total: 4345.32
+  - id: 43973b11-2789-4d37-8822-413f0ef77f84
+    customer: Virgil Sanford
+    status: refunded
+    placedAt: 2024-08-12
+    items[4]{sku,name,qty,price}:
+      NKGVM837,Gorgeous Concrete Ball,1,284.93
+      FGVD41S8,Practical Bamboo Table,3,178.55
+      BYFO4W7O,Rustic Granite Shoes,6,312.73
+      CM8RCBHV,Generic Metal Car,3,459.59
+    total: 4075.73
+  - id: 82a41577-9273-450c-9e25-e4a46b085d66
+    customer: Latoya Kulas MD
+    status: shipped
+    placedAt: 2024-02-07
+    items[1]{sku,name,qty,price}:
+      2YFZRRS0,Awesome Silk Bike,1,163.83
+    total: 163.83
+  - id: 64b2f1fe-c268-45f1-b3e6-441e1c209606
+    customer: Dr. Gertrude Leffler
+    status: paid
+    placedAt: 2025-07-16
+    items[4]{sku,name,qty,price}:
+      SX8B3AQH,Recycled Ceramic Bacon,6,31.68
+      W5NUIPYC,Soft Steel Car,2,157.04
+      WL263QO3,Bespoke Granite Table,2,335.56
+      DKG33J8P,Modern Plastic Pizza,6,41.58
+    total: 1424.76
+  - id: 12bca0b8-2699-44b7-9d2a-5ec666db8fa8
+    customer: Rodolfo Huel
+    status: refunded
+    placedAt: 2024-12-08
+    items[4]{sku,name,qty,price}:
+      P7CT9009,Unbranded Wooden Chicken,3,288.67
+      XC9R56OU,Incredible Bronze Chicken,4,488.27
+      COC5UCZI,Tasty Steel Mouse,3,421.18
+      WD6U07VG,Fresh Aluminum Shirt,5,93.35
+    total: 4549.38
+  - id: d269b8af-24e4-4f48-8fe1-0b3040fae50b
+    customer: Wendell Bednar
+    status: delivered
+    placedAt: 2025-01-04
+    items[1]{sku,name,qty,price}:
+      IEPZ3UL0,Ergonomic Rubber Bacon,6,485.9
+    total: 2915.4
+  - id: 8fca045c-07a8-4b1a-8af3-2ba0a731c9a5
+    customer: Rufus Schowalter
+    status: shipped
+    placedAt: 2024-07-29
+    items[3]{sku,name,qty,price}:
+      3C8EXCUT,Frozen Aluminum Fish,2,66.81
+      TDT215EV,Handmade Granite Mouse,5,459.39
+      5XSVA4BV,Fresh Bamboo Chair,6,194.73
+    total: 3598.95
+  - id: d9bd5860-0338-4e57-a68e-5d47e0ac299b
+    customer: Irvin Champlin
+    status: pending
+    placedAt: 2024-03-31
+    items[5]{sku,name,qty,price}:
+      TI9T9624,Fresh Metal Pants,3,137.71
+      YHOSIPKJ,Licensed Steel Salad,1,407.24
+      IGY9PHLD,Luxurious Aluminum Pizza,2,400.69
+      XVL3Y8DR,Modern Metal Bacon,2,23.18
+      U1EAEMQW,Elegant Cotton Computer,6,90.36
+    total: 2210.27
+  - id: a1e9933c-e029-436a-b45e-f9bc49d7bc39
+    customer: Mrs. Lynda O'Connell
+    status: pending
+    placedAt: 2024-03-31
+    items[3]{sku,name,qty,price}:
+      AUWNCX1J,Soft Granite Chicken,3,359.55
+      Z84WH5UE,Soft Silk Soap,1,35.92
+      I6TX881M,Refined Plastic Car,5,375.15
+    total: 2990.32
+  - id: 9c79d48f-549e-4188-b730-2af280d3ee82
+    customer: Oscar Satterfield PhD
+    status: pending
+    placedAt: 2024-08-02
+    items[2]{sku,name,qty,price}:
+      BEA97JG3,Frozen Silk Table,5,340
+      CGG6IQ3H,Small Wooden Car,4,83.06
+    total: 2032.24
+  - id: a0e12f93-da46-4723-928b-690b417e1773
+    customer: Lawrence Gutmann
+    status: shipped
+    placedAt: 2025-11-03
+    items[2]{sku,name,qty,price}:
+      8X0TBJDV,Electronic Marble Fish,2,245.29
+      2KH0CIHM,Handmade Ceramic Pizza,2,495.3
+    total: 1481.18
+  - id: e7c5a9b2-5ee7-4bc6-98a0-7e10b51dcf53
+    customer: Krystal Johnston
+    status: paid
+    placedAt: 2024-11-12
+    items[2]{sku,name,qty,price}:
+      BGGSYU58,Generic Bronze Chicken,5,289.62
+      O8ZA0VM3,Sleek Bronze Fish,2,445.51
+    total: 2339.12
+  - id: 106b1f9e-666d-4888-971b-12bfd53f11d1
+    customer: Joann Robel
+    status: shipped
+    placedAt: 2024-06-02
+    items[4]{sku,name,qty,price}:
+      ML0G0JTY,Awesome Cotton Bacon,4,342.56
+      Q15RF8OR,Practical Cotton Shirt,4,261.13
+      QTMCJ24L,Frozen Granite Towels,4,171.06
+      IEBOMPGV,Fantastic Ceramic Table,2,426.5
+    total: 3952
+  - id: 5c456925-ba82-4d92-b7b2-3884cc0f0d01
+    customer: Lori Flatley
+    status: refunded
+    placedAt: 2025-11-08
+    items[4]{sku,name,qty,price}:
+      6V7YAUHM,Luxurious Rubber Fish,1,171.38
+      LNTP4JPC,Bespoke Cotton Table,3,251.71
+      UZO6IWG5,Gorgeous Ceramic Mouse,1,368.05
+      2ECVVL3S,Modern Silk Sausages,4,297.72
+    total: 2485.44
+  - id: 7e28ccb3-e0f0-4a7f-81ea-f8a9cbe65eec
+    customer: Pat Kris
+    status: delivered
+    placedAt: 2024-08-10
+    items[3]{sku,name,qty,price}:
+      6JXW5L00,Rustic Metal Soap,4,255.07
+      LJRT6L73,Generic Plastic Hat,1,104.39
+      5MAJ8U5Y,Electronic Rubber Ball,3,68.09
+    total: 1328.94
+  - id: 779d97a1-1645-4ff1-9b1d-42a432625cd0
+    customer: Ms. Muriel Thiel
+    status: refunded
+    placedAt: 2024-10-08
+    items[1]{sku,name,qty,price}:
+      YSVHIRMD,Fantastic Cotton Shoes,6,291
+    total: 1746
+  - id: 01ad4bdc-c942-4888-9b5d-1c0c832a6000
+    customer: Connie Yost
+    status: pending
+    placedAt: 2024-06-12
+    items[2]{sku,name,qty,price}:
+      5FC32HNE,Modern Steel Pants,2,106.75
+      AOGXNJL7,Small Granite Towels,2,371.41
+    total: 956.32
+  - id: a52b1d26-bed0-4ab9-9908-8775d48d3e3a
+    customer: Tiffany Macejkovic Jr.
+    status: shipped
+    placedAt: 2024-04-28
+    items[1]{sku,name,qty,price}:
+      T44V4SYC,Luxurious Cotton Shoes,2,137.75
+    total: 275.5
+  - id: f4ac006b-3959-484f-a102-f5618a4c27f5
+    customer: Randal Franecki
+    status: delivered
+    placedAt: 2025-02-06
+    items[4]{sku,name,qty,price}:
+      Z4WHVBFG,Refined Bamboo Mouse,6,294.33
+      TUS25QCH,Sleek Granite Chicken,3,201
+      5AR0K3QX,Luxurious Plastic Chips,5,96.43
+      7CEKBE8W,Luxurious Gold Computer,5,458.17
+    total: 5141.98
+  - id: dc840c8a-bc03-4ad1-8f51-a3fc833e69ad
+    customer: Leonard Block
+    status: shipped
+    placedAt: 2025-03-15
+    items[1]{sku,name,qty,price}:
+      MF1ZZJ01,Modern Metal Car,6,197.25
+    total: 1183.5
+  - id: b9582b97-cb99-458c-bf32-43e0f6bc8816
+    customer: Brenda Rodriguez
+    status: shipped
+    placedAt: 2024-11-04
+    items[1]{sku,name,qty,price}:
+      O7J5Z14H,Generic Cotton Salad,1,199.54
+    total: 199.54
+  - id: 307a6609-b348-4e85-bb8a-23842de96816
+    customer: Sabrina Grady
+    status: refunded
+    placedAt: 2024-02-16
+    items[1]{sku,name,qty,price}:
+      BYPJ3TS8,Practical Rubber Pants,2,241.19
+    total: 482.38
+  - id: 6d0a447f-44b4-482c-a579-10bf5bca4d2d
+    customer: Heather Lang
+    status: refunded
+    placedAt: 2025-05-30
+    items[5]{sku,name,qty,price}:
+      YUCMMYXP,Generic Bronze Soap,1,394.02
+      UUZDLJK2,Awesome Concrete Table,6,30.05
+      QGJL2CCT,Bespoke Plastic Sausages,5,440.76
+      23KSS119,Recycled Concrete Tuna,2,439.29
+      DATF854E,Tasty Bamboo Tuna,3,450.09
+    total: 5006.97
+  - id: 0c49b918-6b08-4730-91c4-8d092c879c8b
+    customer: Armando Torp-Goldner
+    status: pending
+    placedAt: 2025-09-27
+    items[2]{sku,name,qty,price}:
+      4BPZJH48,Frozen Rubber Soap,4,266.89
+      O9NWOB46,Oriental Cotton Towels,5,427.66
+    total: 3205.86
+  - id: f9816b38-4f1c-4964-9568-ca1a065be5e2
+    customer: Lora Moore
+    status: refunded
+    placedAt: 2024-05-06
+    items[2]{sku,name,qty,price}:
+      WAA3MS0Z,Handcrafted Aluminum Shoes,2,416.23
+      PKN2XR1W,Handcrafted Silk Pizza,4,49.76
+    total: 1031.5
+  - id: 6db616a2-cea4-4519-850e-af6d1c1969eb
+    customer: Louis Weissnat
+    status: shipped
+    placedAt: 2024-02-03
+    items[5]{sku,name,qty,price}:
+      AD5UEUEI,Incredible Bronze Keyboard,2,11.41
+      B0IJ5G1H,Small Bamboo Soap,1,254.61
+      W5VW89AI,Licensed Gold Bike,3,365.79
+      3G252Y5V,Fantastic Wooden Computer,2,475.63
+      ET9TZCXU,Handcrafted Wooden Table,4,461.24
+    total: 4171.02
+  - id: 93a43b29-5340-432b-90ad-cf9c750c7e2f
+    customer: Max Spencer DDS
+    status: pending
+    placedAt: 2025-12-03
+    items[4]{sku,name,qty,price}:
+      N1BLS2U5,Bespoke Ceramic Tuna,5,279.28
+      JT6F4KKY,Handmade Bamboo Gloves,4,238.6
+      HOTZ4YZR,Handmade Bamboo Hat,6,7.5
+      4144L41O,Handmade Plastic Table,6,278.61
+    total: 4067.46
+  - id: b6f352a1-7b80-4ccc-b7ab-02cbc0621769
+    customer: Bobby Pfannerstill IV
+    status: pending
+    placedAt: 2025-10-12
+    items[1]{sku,name,qty,price}:
+      TUDX4UH0,Bespoke Bamboo Sausages,3,329.85
+    total: 989.55
+  - id: 36224612-0fde-4866-a523-c7767addc1d4
+    customer: Angelica Welch
+    status: pending
+    placedAt: 2024-03-28
+    items[1]{sku,name,qty,price}:
+      X4Q1D2H4,Gorgeous Metal Tuna,2,54.49
+    total: 108.98
+  - id: fac2eb19-6bfc-4db2-8acb-fc884c72d1fd
+    customer: Troy Considine
+    status: pending
+    placedAt: 2025-10-20
+    items[4]{sku,name,qty,price}:
+      PZKS97IK,Fresh Wooden Cheese,3,265.36
+      2JA5ZK5H,Tasty Cotton Chair,6,176
+      3JND7GAA,Bespoke Metal Shirt,4,196.02
+      4I7SJ53K,Frozen Rubber Cheese,3,479.81
+    total: 4075.59
+  - id: 4a4df235-abc2-449b-aaef-ec152c9c891b
+    customer: Stewart Ferry
+    status: refunded
+    placedAt: 2024-08-30
+    items[1]{sku,name,qty,price}:
+      3EGY19UQ,Elegant Aluminum Computer,4,14.22
+    total: 56.88
+  - id: b91c2e46-7796-4a56-8d7e-2ad7bbf39890
+    customer: Randall Hartmann
+    status: delivered
+    placedAt: 2024-03-13
+    items[5]{sku,name,qty,price}:
+      NAASKMBC,Elegant Concrete Soap,3,98.63
+      R7FTOJNG,Handmade Gold Gloves,1,58.29
+      R90PNQ0P,Ergonomic Marble Mouse,6,141.8
+      LB0NMAMZ,Practical Aluminum Mouse,3,283.24
+      BYAIWCQK,Electronic Plastic Tuna,4,62.08
+    total: 2303.02
+  - id: b79c4653-0474-4c11-a048-095f89187137
+    customer: Mr. Pete Wunsch
+    status: shipped
+    placedAt: 2024-05-21
+    items[2]{sku,name,qty,price}:
+      IA6JE759,Practical Marble Mouse,1,211.48
+      Y77O4U99,Generic Metal Mouse,6,301.77
+    total: 2022.1
+  - id: ba559722-5978-49c6-9e8d-28cb48145893
+    customer: Perry Kuhn
+    status: delivered
+    placedAt: 2025-12-05
+    items[4]{sku,name,qty,price}:
+      4LAPMUTC,Awesome Cotton Tuna,2,33.76
+      SG5TAW9V,Generic Metal Chicken,5,36.13
+      BU91NAR8,Fantastic Rubber Salad,1,68.36
+      7MQGOVJ4,Refined Concrete Soap,1,422.75
+    total: 739.28
+  - id: d27eb6c9-3e41-4f30-9707-4436f4d427cc
+    customer: Jerry Ortiz
+    status: refunded
+    placedAt: 2025-03-11
+    items[3]{sku,name,qty,price}:
+      YXR0JWSJ,Handcrafted Bronze Gloves,2,50.27
+      QW8ZWZCC,Refined Silk Sausages,3,181.69
+      DSCCZIU0,Licensed Metal Shoes,5,491.02
+    total: 3100.71
+  - id: 9259512c-0ee0-49e1-9ace-4f0c320e697e
+    customer: Charlotte Kunde
+    status: shipped
+    placedAt: 2024-07-31
+    items[1]{sku,name,qty,price}:
+      4QGH9AXK,Handmade Aluminum Tuna,2,445.61
+    total: 891.22
+  - id: 0a6416b6-9e85-43ed-b678-ba222e041aae
+    customer: Paula Welch
+    status: delivered
+    placedAt: 2025-05-23
+    items[4]{sku,name,qty,price}:
+      CJWK37PV,Rustic Granite Gloves,1,193.42
+      PQKNIZUG,Intelligent Wooden Towels,3,22.89
+      H7GL6Q10,Rustic Aluminum Table,6,405.56
+      EMUMU1IK,Handcrafted Bronze Tuna,1,385.74
+    total: 3081.19
+  - id: 4c3aae66-61ed-4f1e-9b42-eede3c802011
+    customer: Miss Colleen Effertz
+    status: refunded
+    placedAt: 2024-06-22
+    items[2]{sku,name,qty,price}:
+      YTUNO99D,Gorgeous Cotton Salad,6,488.51
+      VHU7E5EW,Handmade Silk Cheese,3,401.31
+    total: 4134.99
+  - id: 2a313eb1-944a-45cf-bceb-4eacb7787c1a
+    customer: Vincent Kuphal
+    status: pending
+    placedAt: 2025-06-27
+    items[5]{sku,name,qty,price}:
+      PWH1P1YN,Fantastic Steel Towels,4,488.41
+      YLYVVPF1,Rustic Granite Towels,4,414.3
+      EJ5R4F32,Fantastic Cotton Computer,1,226.5
+      7UCIEHJZ,Incredible Marble Bike,4,23.57
+      SULWLBN6,Recycled Rubber Chair,6,339.38
+    total: 5967.9
+  - id: 1159b5ea-e824-4ce7-bb65-187ef82dcc55
+    customer: Stacey Bergstrom MD
+    status: shipped
+    placedAt: 2024-03-14
+    items[4]{sku,name,qty,price}:
+      DWS8PBNH,Rustic Plastic Chicken,1,132.91
+      JX013AXI,Luxurious Ceramic Fish,4,345.99
+      ITWB4NS3,Refined Concrete Mouse,3,319.65
+      FFG5WU8U,Luxurious Ceramic Mouse,2,256.92
+    total: 2989.66
+  - id: 3bdead27-6f57-44b0-96c3-4a9737680139
+    customer: Ivan Lockman
+    status: shipped
+    placedAt: 2024-02-22
+    items[5]{sku,name,qty,price}:
+      W79R8PMM,Unbranded Steel Computer,1,49.04
+      O6CGONHS,Recycled Granite Car,2,25.78
+      JZR7JS73,Oriental Aluminum Tuna,1,227.38
+      051HKXNU,Rustic Plastic Shirt,4,475.71
+      4LU7FOWI,Luxurious Bronze Chips,3,195.18
+    total: 2816.36
+  - id: 9a35a4b1-d573-42be-8f64-53edffdf8516
+    customer: Dr. Brittany Champlin
+    status: refunded
+    placedAt: 2025-10-21
+    items[3]{sku,name,qty,price}:
+      K6GUB35U,Fantastic Cotton Tuna,5,450.53
+      LTO5XXS6,Licensed Marble Chair,2,99.41
+      58KEHKQC,Fresh Marble Shoes,5,139.59
+    total: 3149.42
+  - id: 404744b9-3e7f-478b-b330-a242a0a6c7d1
+    customer: Dr. Amos O'Hara
+    status: shipped
+    placedAt: 2024-12-18
+    items[4]{sku,name,qty,price}:
+      R1F2RI5D,Fantastic Marble Chips,4,177.6
+      7LNSNAA8,Modern Bronze Soap,2,262.16
+      DMC7HN4Y,Recycled Cotton Table,4,417.23
+      7JF1K9FM,Fantastic Steel Table,6,215.03
+    total: 4193.82
+  - id: af8789ab-e64f-4075-989d-94e0c53552e8
+    customer: Colin Stroman-Kuhic
+    status: shipped
+    placedAt: 2024-12-21
+    items[1]{sku,name,qty,price}:
+      2OGAYP2U,Tasty Ceramic Ball,1,291.99
+    total: 291.99
+  - id: ff1ad139-6b37-4f6b-9185-489d09525e2b
+    customer: Alyssa Wunsch
+    status: delivered
+    placedAt: 2024-06-06
+    items[2]{sku,name,qty,price}:
+      0J5YKYS5,Luxurious Cotton Table,2,476.96
+      Q2FYYP4W,Tasty Wooden Soap,2,361.46
+    total: 1676.84
+  - id: ed181219-f2b9-4586-805f-4754bccd0e79
+    customer: Amber Von
+    status: pending
+    placedAt: 2025-03-24
+    items[2]{sku,name,qty,price}:
+      TBOON49T,Unbranded Marble Car,1,31.96
+      WDKAO7CS,Rustic Concrete Car,1,206.79
+    total: 238.75
+  - id: e55c927a-20ba-4587-afb4-cb495069628c
+    customer: Dominic Tremblay
+    status: pending
+    placedAt: 2025-10-02
+    items[4]{sku,name,qty,price}:
+      NMVDD2P1,Unbranded Wooden Pizza,6,247.98
+      XVBMPEEP,Ergonomic Gold Chair,2,76.21
+      MUG7J2WX,Handcrafted Steel Shirt,4,455.03
+      G3VHIG4H,Luxurious Gold Bike,6,414.09
+    total: 5944.96
